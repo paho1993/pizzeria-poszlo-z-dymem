@@ -8,7 +8,18 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Strona główna</h1>
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>{" "}
+    <h1>Strona główna</h1> <h1>Strona główna</h1> <h1>Strona główna</h1>
   </Layout>
 )
 
