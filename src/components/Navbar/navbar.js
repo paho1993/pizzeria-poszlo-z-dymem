@@ -35,15 +35,12 @@ const StyledLink = styled(Link)`
 const Navbar = () => (
   <HeaderWrapper>
     <StyledLink to="/">
-      <b>MACIEJ PACHOLAK</b>
+      <b>Poszło z dymem</b>
     </StyledLink>
     <ContentSeparator />
-    <StyledLink>O mnie</StyledLink>
-
-    <StyledLink to="/projects">Projekty</StyledLink>
-
-    <StyledLink to="/cgi">Grafika komputerowa</StyledLink>
-
+    <StyledLink to="/menu">Menu</StyledLink>
+    <StyledLink>O nas</StyledLink>
+    <StyledLink to="/cgi">Lokal</StyledLink>
     <StyledLink to="/contact">Kontakt</StyledLink>
   </HeaderWrapper>
 )
