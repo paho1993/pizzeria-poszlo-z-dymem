@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 
-const CGIPage = () => (
+const Place = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Grafika komputerowa</h1>
   </Layout>
 )
 
-export default CGIPage
+export default Place

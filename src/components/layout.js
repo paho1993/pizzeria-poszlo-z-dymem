@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./Navbar/navbar"
 import "./layout.css"
-
+import "bootstrap/dist/css/bootstrap.min.css"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
     <>
       <Navbar siteTitle={data.site.siteMetadata.title} />
       <div>
-        <main style={{ paddingTop: "80px" }}>{children}</main>
+        <main style={{ paddingTop: "80px", backgroundColor: "#443737" }}>
+          {children}
+        </main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
