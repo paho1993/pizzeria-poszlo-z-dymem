@@ -27,9 +27,7 @@ const Layout = ({ children }) => {
     <>
       <Navbar siteTitle={data.site.siteMetadata.title} />
       <div>
-        <main style={{ paddingTop: "80px", backgroundColor: "#443737" }}>
-          {children}
-        </main>
+        <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

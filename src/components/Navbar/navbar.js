@@ -51,7 +51,7 @@ const NavigationBar = () => (
       <img
         src={Logo}
         width="257"
-        height="150"
+        height="70"
         className="d-inline-block align-top"
         alt="Poszło z Dymem"
       />
