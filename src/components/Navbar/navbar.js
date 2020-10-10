@@ -60,9 +60,9 @@ const NavigationBar = () => (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <Nav.Link href="/menu">Menu</Nav.Link>
-        <Nav.Link href="/about">O nas</Nav.Link>
         <Nav.Link href="/place">Lokal</Nav.Link>
         <Nav.Link href="/contact">Kontakt</Nav.Link>
+        <Nav.Link href="https://www.w3schools.com">Zamów online</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

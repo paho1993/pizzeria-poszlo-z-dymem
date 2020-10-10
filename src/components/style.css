@@ -311,6 +311,99 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+/* About Section */
+#gallery {
+  padding: 20px 0;
+}
+#gallery h3 {
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
+#gallery h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#gallery h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+#gallery .about-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+}
+#gallery .about-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#gallery img {
+  width: 520px;
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#gallery p {
+  line-height: 24px;
+  margin: 30px 0;
+}
+/* Menu Section */
+#restaurant-menu {
+  padding: 100px 0 60px 0;
+}
+#restaurant-menu img {
+  width: 300px;
+  box-shadow: 15px 0 #a7c44c;
+}
+#restaurant-menu h3 {
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+#restaurant-menu .menu-section hr {
+  margin: 0 auto;
+}
+#restaurant-menu .menu-section {
+  margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section-title {
+  font-size: 32px;
+  display: block;
+  font-weight: 400;
+  color: #444;
+  margin: 20px 0;
+  text-align: center;
+}
+#restaurant-menu .menu-item {
+  margin: 45px 0;
+  font-size: 18px;
+}
+#restaurant-menu .menu-item-name {
+  font-weight: 400;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+}
+#restaurant-menu .menu-item-description {
+  font-size: 15px;
+  width: 85%;
+}
+#restaurant-menu .menu-item-price {
+  float: right;
+  font-weight: 400;
+  color: #555;
+  margin-top: -36px;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -444,6 +537,12 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
+#gallery {
+  padding: 0;
+}
+#gallery .gallery-item {
+  margin: 0 -15px;
+}
 #team {
   padding: 100px 0;
 }
@@ -573,7 +672,7 @@ label {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .icon {
   font-size: 22px;
   width: 48px;
   height: 48px;
@@ -583,21 +682,37 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
-#contact .social i.fa:hover {
+#contact .social .icon:hover {
   color: #608dfd;
   background: #fff;
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: black;
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: white;
   font-size: 14px;
+}
+#footer h3 {
+  color: white;
+  font-size: 18px;
 }
 #footer a {
   color: #608dfd;
+}
+#footer .iconFooter {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  padding: 18px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
