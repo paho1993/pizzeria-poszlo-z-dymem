@@ -348,7 +348,7 @@ header .intro-text {
   padding-right: 8px;
 }
 #gallery img {
-  width: 520px;
+  width: 450px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
@@ -536,10 +536,7 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#gallery {
-  padding: 0;
-}
+
 #gallery .gallery-item {
   margin: 0 -15px;
 }
