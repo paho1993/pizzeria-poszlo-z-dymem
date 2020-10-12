@@ -6,11 +6,13 @@ import Layout from "../components/layout"
 import "../components/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 // import Image from "../components/image"
+import Map from "../components/Map/map"
 import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Map />
     <div id="contact">
       <div className="container">
         <div className="col-md-8">

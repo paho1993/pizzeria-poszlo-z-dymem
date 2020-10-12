@@ -12,6 +12,9 @@ const MenuPage = () => (
       <div class="container">
         <div class="section-title text-center">
           <h2>Menu</h2>
+          <p>
+            afklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjsafklsafjkafkjlfaklsafjksafkajlfasjkflasjkflasfkjs
+          </p>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">

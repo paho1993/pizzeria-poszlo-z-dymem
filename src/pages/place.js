@@ -8,7 +8,10 @@ import SEO from "../components/seo"
 const Place = () => (
   <Layout>
     <SEO title="Home" />
-
+    <div className=" section-title text-center">
+      <h2>Lokal </h2>
+      <p>asjfklsafjklfasjklsafkjlsafjklasfjkskjl</p>
+    </div>
     <div id="gallery">
       <div class="container-fluid">
         <div class="row">

@@ -3,9 +3,13 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import "../style.css"
-// import "bootstrap/dist/css/bootstrap.min.css"
-import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+
+import {
+  faCoffee,
+  faCheckSquare,
+  faFacebookF,
+  faInsta,
+} from "@fortawesome/free-solid-svg-icons"
 import Logo from "../../images/fiverr_weblogo.svg"
 import {
   Navbar,
@@ -55,48 +59,17 @@ const Footer = () => (
     <div className="container text-center">
       <div className="row">
         <div className="col">
-          {" "}
           <a href="lol">
             <FontAwesomeIcon className="iconFooter" icon={faCoffee} size="3x" />
           </a>
         </div>{" "}
         <div className="col">
-          {" "}
-          <a href="lol">
-            <FontAwesomeIcon className="iconFooter" icon={faCoffee} size="3x" />
-          </a>
-        </div>{" "}
-        <div className="col">
-          {" "}
           <a href="lol">
             <FontAwesomeIcon className="iconFooter" icon={faCoffee} size="3x" />
           </a>
         </div>
       </div>
     </div>
-    {/* <div className="col-md-12">
-      <div className="row">
-        <div className="social">
-          <ul>
-            <li>
-              <a href="lol">
-                <FontAwesomeIcon className="icon" icon={faCoffee} />
-              </a>
-            </li>
-            <li>
-              <a a href="lol">
-                <FontAwesomeIcon className="icon" icon={faCoffee} />
-              </a>
-            </li>
-            <li>
-              <a href="lol">
-                <FontAwesomeIcon className="icon" icon={faCoffee} />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div> */}
     <div className="container text-center">
       <p>
         &copy; {new Date().getFullYear()} Poszło z dymem. Realizacja :{" "}
