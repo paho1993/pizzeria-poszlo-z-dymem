@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
+import "../../components/style copy.css"
 import FacebookIcon from "@material-ui/icons/Facebook"
 import InstagramIcon from "@material-ui/icons/Instagram"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -60,12 +61,12 @@ const Footer = () => (
     </div>
     <div className="container text-center">
       <div className="row justify-content-center">
-        <div className="col-3">
+        <div className=" col-sm-2 col-md-1">
           <a href="lol">
-            <FacebookIcon className="iconFooter" />
+            <FacebookIcon className="iconFooter" fontSize="large" />
           </a>
         </div>
-        <div className="col-3">
+        <div className="col-sm-2 col-md-1">
           <a href="lol">
             <InstagramIcon className="iconFooter" />
           </a>

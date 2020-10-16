@@ -87,6 +87,34 @@ hr {
   color: #333;
   text-transform: uppercase;
 }
+
+.navbar-linkstyle {
+  /* font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase; */
+  /* margin: auto; */
+  /* display: inline-block;
+  vertical-align: middle; */
+  /* margin: auto; */
+  display: inline-flex;
+  height: 60px;
+  align-items: center;
+}
+.navbar-spanstyle {
+  /* font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase; */
+  /* margin: auto; */
+  height: 50px;
+
+  display: inline-flex;
+  align-items: center;
+  margin: 5px;
+}
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -162,6 +190,14 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+.svg-fill path {
+  fill: white;
+}
+
+.borderbutton {
+  border: 2px solid #ff8000;
+  border-radius: 25px;
+}
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -208,7 +244,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../images/intro-bg.jpg) center center no-repeat;
+  background: url(../images/stock-pizza-main.jpg) center center no-repeat;
+
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -216,7 +253,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.329);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -547,7 +584,10 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  margin: 15px;
+  width: 400px;
+  height: 266px;
+  /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
 }
 #team .thumbnail {
   background: transparent;
@@ -715,16 +755,20 @@ label {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
-  color: #fff;
-  width: 70px;
-  height: 70px;
-  padding: 18px 0;
+  color: rgba(255, 255, 255, 0.3);
+  width: 55px;
+  height: 55px;
+  padding: 10px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
 }
 #footer .iconFooter:hover {
-  color: red;
+  background: #00aeed62;
+  border-color: #72c5e657;
+  color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
 }
 
 @media (max-width: 768px) {

@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import Image from "../components/image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee } from "@fortawesome/free-solid-svg-icons"
-import Picture from "../images/intro-bg.jpg"
+import Picture from "../images/stock-pizza-main.jpg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -28,10 +28,7 @@ const IndexPage = () => (
                     Duis sed dapibus leo nec ornare diam sed commodo nibh ante
                     facilisis bibendum.
                   </p>
-                  <a
-                    href="#features"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
+                  <a href="/menu" className="btn btn-custom btn-lg page-scroll">
                     Zobacz menu
                   </a>
                 </div>

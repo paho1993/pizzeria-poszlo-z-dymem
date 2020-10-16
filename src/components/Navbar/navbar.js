@@ -2,15 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
-import Logo from "../../images/fiverr_weblogo.svg"
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap"
+import Logo from "../../images/fiverr_final_website.svg"
+import PyszneLogo from "../../images/svg/PysznePL.svg"
+import { Navbar, Nav } from "react-bootstrap"
 const HeaderWrapper = styled.header`
   @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
   height: 70px;
@@ -37,32 +31,42 @@ const ContentSeparator = styled.div`
 const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 100px;
 `
 
 const NavigationBar = () => (
   <Navbar
     bg="#272121"
     variant="dark"
-    style={{ backgroundColor: "#272121" }}
+    fixed="top"
+    style={{
+      backgroundColor: "#272121",
+      boxShadow: "0 4px 2px -2px rgba(0,0,0,.2)",
+    }}
     expand="lg"
   >
     <Navbar.Brand href="/">
-      <img
-        src={Logo}
-        width="257"
-        height="70"
-        className="d-inline-block align-top"
-        alt="Poszło z Dymem"
-      />
+      <Logo style={{ height: "75px", marginLeft: "20px" }} />
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ml-auto">
-        <Nav.Link href="/menu">Menu</Nav.Link>
-        <Nav.Link href="/place">Lokal</Nav.Link>
-        <Nav.Link href="/contact">Kontakt</Nav.Link>
-        <Nav.Link href="https://www.w3schools.com">Zamów online</Nav.Link>
+      <Nav className="ml-auto mr-5">
+        <Nav.Link className="navbar-linkstyle" href="/menu">
+          Menu
+        </Nav.Link>
+        <Nav.Link className="navbar-linkstyle" href="/place">
+          Lokal
+        </Nav.Link>
+        <Nav.Link className="mr-2 navbar-linkstyle" href="/contact">
+          Kontakt
+        </Nav.Link>
+        <Nav.Link
+          className="navbar-linkstyle borderbutton"
+          href="https://www.w3schools.com"
+        >
+          <PyszneLogo style={{ height: "50px" }} />
+          <span className="navbar-spanstyle">Zamów online</span>
+        </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

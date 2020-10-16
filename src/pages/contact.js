@@ -1,28 +1,34 @@
 import React from "react"
 // import { Link } from "gatsby"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCoffee } from "@fortawesome/free-solid-svg-icons"
 import Layout from "../components/layout"
 import "../components/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-// import Image from "../components/image"
+import RoomIcon from "@material-ui/icons/Room"
+import PhoneIcon from "@material-ui/icons/Phone"
+import MailOutlineIcon from "@material-ui/icons/MailOutline"
 import Map from "../components/Map/map"
 import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Map />
+    <div className="container">
+      <div className="text-center section-title" style={{ marginTop: "170px" }}>
+        <h2>Lokal</h2>
+      </div>
+      <Map />
+    </div>
+
     <div id="contact">
       <div className="container">
         <div className="row">
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Napisz do nas</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Jeśli masz do Nas jakiekolwiek pytanie - napisz ! Postaramy
+                  się odpowiedzieć jak najszybciej.
                 </p>
               </div>
               <form name="sentMessage" id="contactForm" noValidate>
@@ -33,7 +39,7 @@ const ContactPage = () => (
                         type="text"
                         id="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Imię"
                         required="required"
                       />
                       <p className="help-block text-danger"></p>
@@ -58,43 +64,45 @@ const ContactPage = () => (
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Wiadomość"
                     required
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Wyślij wiadomość
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Informacje kontaktowe</h3>
               <p>
                 <span>
-                  <FontAwesomeIcon icon={faCoffee} /> Address
+                  <RoomIcon fontSize="small" />
+                  &nbsp;&nbsp;&nbsp;Adres
                 </span>
-                lol
+                ul. Jakaś 28, 45-000, Opole
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <FontAwesomeIcon icon={faCoffee} /> Phone
+                  <PhoneIcon fontSize="small" />
+                  &nbsp;&nbsp;&nbsp;Telefon
                 </span>
-                lol
+                +48 000 000 000
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <FontAwesomeIcon icon={faCoffee} />
-                  Email
+                  <MailOutlineIcon fontSize="small" />
+                  &nbsp;&nbsp;&nbsp;Email
                 </span>
-                lol
+                pizzeriaposzlozdymem@gmail.com
               </p>
             </div>
           </div>
