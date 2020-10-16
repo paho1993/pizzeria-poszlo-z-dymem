@@ -46,7 +46,7 @@ const NavigationBar = () => (
     expand="lg"
   >
     <Navbar.Brand href="/">
-      <Logo style={{ height: "75px", marginLeft: "20px" }} />
+      <Logo style={{ height: "75px", marginLeft: "40px" }} />
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
