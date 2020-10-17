@@ -58,8 +58,6 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
 }
 hr {
   height: 2px;
@@ -511,7 +509,6 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
-  -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
@@ -572,7 +569,6 @@ header .intro-text {
   margin: 15px;
   width: 400px;
   height: 266px;
-  /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
 }
 #team .thumbnail {
   background: transparent;
