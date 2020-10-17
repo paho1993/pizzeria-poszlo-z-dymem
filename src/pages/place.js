@@ -47,52 +47,52 @@ const Place = () => (
         <div className="row justify-content-center">
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture1} alt="..." className="team-img" />
+              <img src={Picture1} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture2} alt="..." className="team-img" />
+              <img src={Picture2} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture3} alt="..." className="team-img" />
+              <img src={Picture3} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture4} alt="..." className="team-img" />
+              <img src={Picture4} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture5} alt="..." className="team-img" />
+              <img src={Picture5} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture6} alt="..." className="team-img" />
+              <img src={Picture6} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture7} alt="..." className="team-img" />
+              <img src={Picture7} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture8} alt="..." className="team-img" />
+              <img src={Picture8} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture9} alt="..." className="team-img" />
+              <img src={Picture9} alt="..." className="team-img img-fluid" />
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
-              <img src={Picture10} alt="..." className="team-img" />
+              <img src={Picture10} alt="..." className="team-img img-fluid" />
             </div>
           </div>
         </div>

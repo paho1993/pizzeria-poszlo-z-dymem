@@ -83,7 +83,7 @@ const IndexPage = () => (
               {" "}
               <img
                 src={Picture}
-                className="img-responsive"
+                className="img-responsive img-fluid"
                 alt="Twoja stara"
               />{" "}
             </div>

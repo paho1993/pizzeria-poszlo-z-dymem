@@ -566,7 +566,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  margin: 15px;
+  margin-bottom: 15px;
   width: 400px;
   height: 266px;
 }

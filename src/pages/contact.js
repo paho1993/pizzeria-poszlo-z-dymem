@@ -11,12 +11,12 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="container">
+    {/* <div className="container">
       <div className="text-center section-title" style={{ marginTop: "170px" }}>
         <h2>Lokal</h2>
       </div>
       <Map />
-    </div>
+    </div> */}
 
     <div id="contact">
       <div className="container">
