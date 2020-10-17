@@ -42,12 +42,12 @@ const Footer = () => (
     <div className="container text-center">
       <div className="row justify-content-center">
         <div className=" col-sm-2 col-md-1">
-          <a href="lol">
+          <a target="_blank" href="https://www.pyszne.pl">
             <FacebookIcon className="iconFooter" fontSize="large" />
           </a>
         </div>
         <div className="col-sm-2 col-md-1">
-          <a href="lol">
+          <a target="_blank" href="https://www.pyszne.pl">
             <InstagramIcon className="iconFooter" />
           </a>
         </div>

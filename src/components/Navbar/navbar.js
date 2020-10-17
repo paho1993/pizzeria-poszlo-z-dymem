@@ -62,7 +62,8 @@ const NavigationBar = () => (
         </Nav.Link>
         <Nav.Link
           className="navbar-linkstyle borderbutton"
-          href="https://www.w3schools.com"
+          target="_blank"
+          href="https://www.pyszne.pl"
         >
           <PyszneLogo style={{ height: "50px" }} />
           <span className="navbar-spanstyle">Zamów online</span>

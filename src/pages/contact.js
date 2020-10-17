@@ -11,11 +11,19 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="container">
-      <div className="text-center section-title" style={{ marginTop: "170px" }}>
-        <h2>Lokal</h2>
-      </div>
-      <Map />
+    <div className="section-title text-center" style={{ marginTop: "150px" }}>
+      <h2>Lokalizacja</h2>
+    </div>
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39114.16286486486!2d20.914870096679707!3d52.21367692013387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c92692e49%3A0xc2e97ae5311f2dc2!2sPa%C5%82ac%20Kultury%20i%20Nauki!5e0!3m2!1spl!2spl!4v1602970537703!5m2!1spl!2spl"
+        width="100%"
+        height="550"
+        frameborder="0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
     </div>
     <div id="contact">
       <div className="container">
