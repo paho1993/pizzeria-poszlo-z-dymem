@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Picture1 from "../images/appetizer-1238615_1920.jpg"
 import Picture2 from "../images/brick-wall-1834784_1920.jpg"
 import Picture3 from "../images/chair-3306118_1920.jpg"
@@ -11,7 +10,6 @@ import Picture8 from "../images/table-5104538_1920.jpg"
 import Picture9 from "../images/tuscany-685110_1920.jpg"
 import Picture10 from "../images/restaurant-449952_1920.jpg"
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const Place = () => (
