@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import RoomIcon from "@material-ui/icons/Room"
 import PhoneIcon from "@material-ui/icons/Phone"
 import MailOutlineIcon from "@material-ui/icons/MailOutline"
-import Map from "../components/Map/map"
 import SEO from "../components/seo"
 
 const ContactPage = () => (
