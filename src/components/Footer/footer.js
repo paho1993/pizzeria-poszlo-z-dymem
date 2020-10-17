@@ -2,29 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
-import "../../components/style copy.css"
 import FacebookIcon from "@material-ui/icons/Facebook"
 import InstagramIcon from "@material-ui/icons/Instagram"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import {
-  faCoffee,
-  faCheckSquare,
-  faFacebookF,
-  faInsta,
-} from "@fortawesome/free-solid-svg-icons"
-import Logo from "../../images/fiverr_weblogo.svg"
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-  Container,
-  Row,
-  Col,
-} from "react-bootstrap"
 const HeaderWrapper = styled.header`
   @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
   height: 70px;
