@@ -183,6 +183,12 @@ hr {
   font-size: 1rem;
 }
 
+.phoneicon {
+  font-size: 19px;
+  width: 19px;
+  height: 19px;
+}
+
 .showonmobile {
   display: none;
 }
@@ -200,6 +206,7 @@ hr {
   background-image: linear-gradient(to right, #b50102 0%, #fe6e01 100%);
   padding: 14px 34px;
   margin: 10px;
+  align-items: center;
   letter-spacing: 1px;
   font-size: 15px;
   font-weight: 500;
@@ -250,10 +257,10 @@ a:focus,
   background: rgba(0, 0, 0, 0.329);
 }
 .intro h1 {
-  font-family: "Fredoka One", cursive;
+  /* font-family: "Fredoka One", cursive; */
   color: #fff;
   font-size: 82px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
@@ -407,14 +414,23 @@ header .intro-text {
 #restaurant-menu .menu-section {
   margin: 0 20px 80px;
 }
-#restaurant-menu .menu-section-title {
+
+.menu-section-title {
   font-size: 32px;
-  display: block;
-  font-weight: 400;
-  color: #444;
-  margin: 20px 0;
-  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
+
+.menu-section-title::after {
+  content: "";
+  flex: 1;
+  margin-left: 1rem;
+  background: linear-gradient(to right, #b50102 0%, #fe6e01 100%);
+  height: 4px;
+  background-color: #000;
+}
+
 #restaurant-menu .menu-item {
   margin: 45px 0;
   font-size: 18px;
@@ -435,49 +451,7 @@ header .intro-text {
   color: #555;
   margin-top: -36px;
 }
-/* Services Section */
-#services {
-  padding: 100px 0;
-  background: linear-gradient(to right, #b50102 0%, #fe6e01 100%);
-  color: #fff;
-}
-#services .service-desc {
-  margin: 10px 10px 20px;
-}
-#services h2 {
-  color: #fff;
-}
-#services .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-}
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
-#services h3 {
-  font-weight: 500;
-  padding: 5px 0;
-  color: #fff;
-}
-#services p {
-  color: rgba(255, 255, 255, 0.75);
-}
-#services .service-desc {
-  margin-bottom: 40px;
-}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -525,46 +499,6 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text {
   opacity: 1;
-}
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
 }
 
 #gallery .gallery-item {
@@ -769,6 +703,11 @@ label {
   }
   .intro h1 {
     font-size: 70px;
-    font-weight: 700;
+  }
+}
+
+@media (max-width: 430px) {
+  .intro h1 {
+    font-size: 50px;
   }
 }

@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import "../components/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+import { faCoffee, faPhone } from "@fortawesome/free-solid-svg-icons"
 import Picture from "../images/stock-pizza-main.jpg"
 import PhoneIcon from "@material-ui/icons/Phone"
 import SEO from "../components/seo"
@@ -34,7 +34,7 @@ const IndexPage = () => (
                     href="tel:123-456-7890"
                     className="btn btn-custom btn-lg page-scroll showonmobile"
                   >
-                    <PhoneIcon fontSize="small" />
+                    <FontAwesomeIcon icon={faPhone} className="phoneicon" />
                     &nbsp;&nbsp;zadzwoń
                   </a>
                 </div>

@@ -5,6 +5,8 @@ import React from "react"
 import Logo from "../../images/fiverr_final_website.svg"
 import PyszneLogo from "../../images/svg/PysznePL.svg"
 import PhoneIcon from "@material-ui/icons/Phone"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCoffee, faPhone } from "@fortawesome/free-solid-svg-icons"
 import { Navbar, Nav } from "react-bootstrap"
 const HeaderWrapper = styled.header`
   @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
@@ -51,7 +53,7 @@ const NavigationBar = () => (
     </Navbar.Brand>
     <div className="navbarphone ml-3">
       Telefon : &nbsp;
-      <PhoneIcon style={{ fontSize: "1.25rem" }} />
+      <FontAwesomeIcon icon={faPhone} className="phoneicon" />
       &nbsp;158915812
     </div>
 
