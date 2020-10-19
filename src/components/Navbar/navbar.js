@@ -51,7 +51,7 @@ const NavigationBar = () => (
     </Navbar.Brand>
     <div className="navbarphone ml-3">
       Telefon : &nbsp;
-      <PhoneIcon fontSize="small" />
+      <PhoneIcon style={{ fontSize: "1.25rem" }} />
       &nbsp;158915812
     </div>
 
