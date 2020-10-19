@@ -177,8 +177,19 @@ hr {
   fill: white;
 }
 
+.navbarphone {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.showonmobile {
+  display: none;
+}
+
 .borderbutton {
   border: 2px solid #ff8000;
+  max-width: 194.08px;
   border-radius: 25px;
 }
 .btn-custom {
@@ -188,8 +199,8 @@ hr {
   background-color: #b50102;
   background-image: linear-gradient(to right, #b50102 0%, #fe6e01 100%);
   padding: 14px 34px;
+  margin: 10px;
   letter-spacing: 1px;
-  margin: 0;
   font-size: 15px;
   font-weight: 500;
   border-radius: 25px;
@@ -239,7 +250,7 @@ a:focus,
   background: rgba(0, 0, 0, 0.329);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Fredoka One", cursive;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -744,5 +755,20 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .navbarphone {
+    display: none;
+  }
+  .showonmobile {
+    display: inline-flex;
+  }
+  header .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 70px;
+    font-weight: 700;
   }
 }

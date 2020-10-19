@@ -4,6 +4,7 @@ import styled from "styled-components"
 import React from "react"
 import Logo from "../../images/fiverr_final_website.svg"
 import PyszneLogo from "../../images/svg/PysznePL.svg"
+import PhoneIcon from "@material-ui/icons/Phone"
 import { Navbar, Nav } from "react-bootstrap"
 const HeaderWrapper = styled.header`
   @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
@@ -48,6 +49,12 @@ const NavigationBar = () => (
     <Navbar.Brand href="/">
       <Logo style={{ height: "75px", marginLeft: "40px" }} />
     </Navbar.Brand>
+    <div className="navbarphone ml-3">
+      Telefon : &nbsp;
+      <PhoneIcon fontSize="small" />
+      &nbsp;158915812
+    </div>
+
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto mr-5">
@@ -65,7 +72,7 @@ const NavigationBar = () => (
           target="_blank"
           href="https://www.pyszne.pl"
         >
-          <PyszneLogo style={{ height: "50px" }} />
+          <PyszneLogo style={{ height: "50px", marginLeft: "3px" }} />
           <span className="navbar-spanstyle">Zamów online</span>
         </Nav.Link>
       </Nav>

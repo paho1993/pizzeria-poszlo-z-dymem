@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee } from "@fortawesome/free-solid-svg-icons"
 import Picture from "../images/stock-pizza-main.jpg"
+import PhoneIcon from "@material-ui/icons/Phone"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -18,7 +19,7 @@ const IndexPage = () => (
               <div className="row">
                 <div className="intro-text">
                   <h1>
-                    PASTA - PIZZA - PANINI
+                    PASTA PIZZA PANINI
                     <span></span>
                   </h1>
                   <p>
@@ -28,6 +29,13 @@ const IndexPage = () => (
                   </p>
                   <a href="/menu" className="btn btn-custom btn-lg page-scroll">
                     Zobacz menu
+                  </a>
+                  <a
+                    href="tel:123-456-7890"
+                    className="btn btn-custom btn-lg page-scroll showonmobile"
+                  >
+                    <PhoneIcon fontSize="small" />
+                    &nbsp;&nbsp;zadzwoń
                   </a>
                 </div>
               </div>
