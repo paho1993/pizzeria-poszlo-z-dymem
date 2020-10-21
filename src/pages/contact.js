@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Skontaktuj się z nami" />
     <div className="section-title text-center" style={{ marginTop: "150px" }}>
       <h2>Lokalizacja</h2>
     </div>

@@ -56,7 +56,7 @@ const Footer = () => (
     <div className="container text-center">
       <p>
         &copy; {new Date().getFullYear()} Poszło z dymem. Realizacja :{" "}
-        <a href="http://www.templatewire.com" rel="nofollow">
+        <a href="http://maciejpacholak.pl/" rel="nofollow">
           Maciej Pacholak
         </a>
       </p>

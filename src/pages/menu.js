@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const MenuPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Nasze menu" />
     <div id="restaurant-menu">
       <div class="container">
         <div class="section-title text-center" style={{ marginTop: "70px" }}>
