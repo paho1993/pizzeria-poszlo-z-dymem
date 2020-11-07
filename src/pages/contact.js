@@ -20,8 +20,8 @@ const ContactPage = () => (
         height="550"
         frameborder="0"
         allowfullscreen=""
+        title="googlemaps"
         aria-hidden="false"
-        tabindex="0"
       ></iframe>
     </div>
     <div id="contact">
@@ -36,13 +36,21 @@ const ContactPage = () => (
                   się odpowiedzieć jak najszybciej.
                 </p>
               </div>
-              <form name="sentMessage" id="contactForm" noValidate>
+              <form
+                name="contactForm"
+                id="contactForm"
+                data-netlify="true"
+                netlify
+                netlify-honeypot="bot-field"
+                noValidate
+              >
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
                         type="text"
                         id="name"
+                        name="name"
                         className="form-control"
                         placeholder="Imię"
                         required="required"
@@ -55,6 +63,7 @@ const ContactPage = () => (
                       <input
                         type="email"
                         id="email"
+                        name="email"
                         className="form-control"
                         placeholder="Email"
                         required="required"

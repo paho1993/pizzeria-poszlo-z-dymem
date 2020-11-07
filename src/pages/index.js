@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee, faPhone } from "@fortawesome/free-solid-svg-icons"
 import Picture from "../images/stock-pizza-main.jpg"
-import PhoneIcon from "@material-ui/icons/Phone"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
