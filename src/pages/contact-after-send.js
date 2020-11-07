@@ -36,61 +36,9 @@ const ContactPage = () => (
                   się odpowiedzieć jak najszybciej.
                 </p>
               </div>
-              <form
-                name="contactForm"
-                id="contactForm"
-                data-netlify="true"
-                method="post"
-                action="contact-after-send"
-                netlify
-                netlify-honeypot="bot-field"
-                noValidate
-              >
-                <input type="hidden" name="form-name" value="contactForm" />
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Imię"
-                        required="required"
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required="required"
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Wiadomość"
-                    required
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Wyślij wiadomość
-                </button>
-              </form>
+              <p>
+                <b>Dziękujemy. Wysłano pomyślnie.</b>
+              </p>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
