@@ -44,6 +44,7 @@ const ContactPage = () => (
                 netlify-honeypot="bot-field"
                 noValidate
               >
+                <input type="hidden" name="form-name" value="contactForm" />
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
