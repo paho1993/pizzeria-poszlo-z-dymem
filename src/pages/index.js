@@ -3,7 +3,13 @@ import Layout from "../components/layout"
 import "../components/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCoffee, faPhone } from "@fortawesome/free-solid-svg-icons"
+import {
+  faCoffee,
+  faPhone,
+  faPizzaSlice,
+  faCarSide,
+  faPepperHot,
+} from "@fortawesome/free-solid-svg-icons"
 import Picture from "../images/stock-pizza-main.jpg"
 import SEO from "../components/seo"
 
@@ -22,15 +28,15 @@ const IndexPage = () => (
                     <span></span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis sed dapibus leo nec ornare diam sed commodo nibh ante
-                    facilisis bibendum.
+                    Prawdziwa włoska pizza w sercu Opola. Najlepsze składniki i
+                    włoska receptura to gwarancja świetnego jedzenia. Przekonaj
+                    się sam!
                   </p>
                   <a href="/menu" className="btn btn-custom btn-lg page-scroll">
                     Zobacz menu
                   </a>
                   <a
-                    href="tel:123-456-7890"
+                    href="tel:510265267"
                     className="btn btn-custom btn-lg page-scroll showonmobile"
                   >
                     <FontAwesomeIcon icon={faPhone} className="phoneicon" />
@@ -48,42 +54,31 @@ const IndexPage = () => (
             <h2>Co nas wyróźnia </h2>
           </div>
           <div className="row center">
-            <div className="col-xs-6 col-md-3">
-              <FontAwesomeIcon className="icon" icon={faCoffee} />
+            <div className="col-xs-6 col-md-4">
+              <FontAwesomeIcon className="icon" icon={faCarSide} />
               <h3>Szybka dostawa</h3>
-              <p>
-                Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus
-                eleifend pellentesque natoque etiam.
-              </p>
+              <p>Szybka dostawa jest gwarancja pysznej świeżej pizzy</p>
             </div>
-            <div className="col-xs-6 col-md-3">
-              <FontAwesomeIcon className="icon" icon={faCoffee} />
+            <div className="col-xs-6 col-md-4">
+              <FontAwesomeIcon className="icon" icon={faPepperHot} />
               <h3>Najlepsza jakośc</h3>
               <p>
-                Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus
-                eleifend pellentesque natoque etiam.
+                Składniki pochodzące prosto z Włoch decydują a wysokiej jakość
+                pizzy
               </p>
             </div>
-            <div className="col-xs-6 col-md-3">
-              <FontAwesomeIcon className="icon" icon={faCoffee} />
-              <h3>Atmosfera</h3>
+            <div className="col-xs-6 col-md-4">
+              <FontAwesomeIcon className="icon" icon={faPizzaSlice} />
+              <h3>Receptura</h3>
               <p>
-                Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus
-                eleifend pellentesque natoque etiam.
-              </p>
-            </div>
-            <div className="col-xs-6 col-md-3">
-              <FontAwesomeIcon className="icon" icon={faCoffee} />
-              <h3>Atmosfera</h3>
-              <p>
-                Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus
-                eleifend pellentesque natoque etiam.
+                Nasze wszystkie danie przygotowywane są z prawdziwych
+                oryginalnych włoskich przepisów
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div id="about">
+      {/* <div id="about">
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6">
@@ -109,7 +104,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </Layout>
 )

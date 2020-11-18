@@ -5,7 +5,7 @@ import InstagramIcon from "@material-ui/icons/Instagram"
 const Footer = () => (
   <div id="footer">
     <div className="container text-center">
-      <h3>Zamów na telefon : 523592835</h3>
+      <h3>Zamów na telefon : 510 265 267</h3>
     </div>
     <div className="container text-center">
       <div className="row justify-content-center">

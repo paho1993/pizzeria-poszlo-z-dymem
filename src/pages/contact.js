@@ -101,7 +101,7 @@ const ContactPage = () => (
                   <RoomIcon fontSize="small" />
                   &nbsp;&nbsp;&nbsp;Adres
                 </span>
-                ul. Jakaś 28, 45-000, Opole
+                ul. Katowicka 48, 46-020, Opole
               </p>
             </div>
             <div className="contact-item">
@@ -110,7 +110,7 @@ const ContactPage = () => (
                   <PhoneIcon fontSize="small" />
                   &nbsp;&nbsp;&nbsp;Telefon
                 </span>
-                +48 000 000 000
+                +48 510 265 267
               </p>
             </div>
             <div className="contact-item">

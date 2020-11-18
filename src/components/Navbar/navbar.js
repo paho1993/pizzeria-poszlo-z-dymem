@@ -22,7 +22,7 @@ const NavigationBar = () => (
     <div className="navbarphone ml-3">
       Telefon : &nbsp;
       <FontAwesomeIcon icon={faPhone} className="phoneicon" />
-      &nbsp;158915812
+      &nbsp;510 265 267
     </div>
 
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -37,14 +37,14 @@ const NavigationBar = () => (
         <Nav.Link className="mr-2 navbar-linkstyle" href="/contact">
           Kontakt
         </Nav.Link>
-        <Nav.Link
+        {/* <Nav.Link
           className="navbar-linkstyle borderbutton"
           target="_blank"
           href="https://www.pyszne.pl"
         >
           <PyszneLogo style={{ height: "50px", marginLeft: "3px" }} />
           <span className="navbar-spanstyle">Zamów online</span>
-        </Nav.Link>
+        </Nav.Link> */}
       </Nav>
     </Navbar.Collapse>
   </Navbar>

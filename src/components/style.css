@@ -408,7 +408,7 @@ header .intro-text {
   padding: 10px 0;
   text-transform: uppercase;
 }
-#restaurant-menu .menu-section hr {
+#restaurant-menu .section hr {
   margin: 0 auto;
 }
 #restaurant-menu .menu-section {
@@ -420,6 +420,17 @@ header .intro-text {
   font-weight: 700;
   display: flex;
   align-items: center;
+}
+
+.menu-section-additions {
+  /* width: 70%; */
+  /* background-color: lawngreen; */
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 4px solid #fe6e01;
+  font-size: 18px;
 }
 
 .menu-section-title::after {
@@ -439,7 +450,6 @@ header .intro-text {
   font-weight: 400;
   font-size: 20px;
   color: #444;
-  margin-bottom: 10px;
 }
 #restaurant-menu .menu-item-description {
   font-size: 15px;
@@ -452,6 +462,13 @@ header .intro-text {
   margin-top: -36px;
 }
 
+#restaurant-menu .menu-item-price2 {
+  float: right;
+  font-weight: 400;
+  color: #555;
+  margin-top: -36px;
+  margin-right: 70px;
+}
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
