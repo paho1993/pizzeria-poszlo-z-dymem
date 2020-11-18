@@ -15,7 +15,7 @@ const ContactPage = () => (
     </div>
     <div>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39114.16286486486!2d20.914870096679707!3d52.21367692013387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c92692e49%3A0xc2e97ae5311f2dc2!2sPa%C5%82ac%20Kultury%20i%20Nauki!5e0!3m2!1spl!2spl!4v1602970537703!5m2!1spl!2spl"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1788.174343240133!2d17.93558123403557!3d50.666852285331736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471053f5168c7593%3A0xced4f70fdc20fe18!2sPosz%C5%82o%20z%20Dymem!5e0!3m2!1spl!2spl!4v1605733985273!5m2!1spl!2spl"
         width="100%"
         height="550"
         frameborder="0"
@@ -101,7 +101,7 @@ const ContactPage = () => (
                   <RoomIcon fontSize="small" />
                   &nbsp;&nbsp;&nbsp;Adres
                 </span>
-                ul. Katowicka 48, 46-020, Opole
+                ul. Katowicka 48, 45-061, Opole
               </p>
             </div>
             <div className="contact-item">

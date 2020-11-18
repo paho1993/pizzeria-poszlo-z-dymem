@@ -51,17 +51,17 @@ const IndexPage = () => (
       <div id="features" className="text-center">
         <div className="container">
           <div className=" section-title">
-            <h2>Co nas wyróźnia </h2>
+            <h2>Co nas wyróżnia </h2>
           </div>
           <div className="row center">
             <div className="col-xs-6 col-md-4">
               <FontAwesomeIcon className="icon" icon={faCarSide} />
               <h3>Szybka dostawa</h3>
-              <p>Szybka dostawa jest gwarancja pysznej świeżej pizzy</p>
+              <p>Szybka dostawa jest gwarancją pysznej świeżej pizzy</p>
             </div>
             <div className="col-xs-6 col-md-4">
               <FontAwesomeIcon className="icon" icon={faPepperHot} />
-              <h3>Najlepsza jakośc</h3>
+              <h3>Najlepsza jakość</h3>
               <p>
                 Składniki pochodzące prosto z Włoch decydują o wysokiej jakości
                 pizzy

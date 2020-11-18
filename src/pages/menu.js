@@ -238,27 +238,39 @@ const MenuPage = () => (
                 </div>
                 <div class="menu-item-price">3</div>
                 <div class="menu-item-price2">2</div>
-                <div class="menu-item-description"></div>
+                <div class="menu-item-description">
+                  Pomidorki koktajlowe, cebula czerwona,rukola, czosnek,
+                  grillowana papryka, cukinia,bakłażan
+                </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Mięsa</div>
                 <div class="menu-item-price">5</div>
                 <div class="menu-item-price2">4</div>
-                <div class="menu-item-description"></div>
+                <div class="menu-item-description">
+                  Salami łagodne, salami ostre, kurczak, boczek, saliccia, pasta
+                  nduja
+                </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Sery</div>
                 <div class="menu-item-price">5,5</div>
                 <div class="menu-item-price2">4,5</div>
-                <div class="menu-item-description"></div>
+                <div class="menu-item-description">
+                  Taleggio, gorgonzola,asiago,parmezan i mozzarella
+                </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Sos</div>
                 <div class="menu-item-price">-</div>
                 <div class="menu-item-price2">2</div>
-                <div class="menu-item-description">
-                  Meksykański, czosnkowy, oliwa
-                </div>
+                <div class="menu-item-description">Meksykański, czosnkowy</div>
+              </div>{" "}
+              <div class="menu-item">
+                <div class="menu-item-name">Oliwa</div>
+                <div class="menu-item-price">-</div>
+                <div class="menu-item-price2">2</div>
+                <div class="menu-item-description">Czosnkowa, pikantna</div>
               </div>
             </div>
           </div>
@@ -278,7 +290,7 @@ const MenuPage = () => (
               class="menu-section-additions section-title text-center"
               style={{ justifyContent: "center" }}
             >
-              Przy zamówieniu na wynos doliczamy kosz opakowania: pizza 30cm -
+              Przy zamówieniu na wynos doliczamy koszt opakowania: pizza 30cm -
               1,3 zł, pizza 40cm - 1,8zł, sałatka - 1zł
             </div>
           </div>
@@ -420,7 +432,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">5</div>
                 <div class="menu-item-description">500ml</div>
               </div>
-              <div class="menu-item">
+              {/* <div class="menu-item">
                 <div class="menu-item-name">Lipton Ice Tea Lemon</div>
                 <div class="menu-item-price">5</div>
                 <div class="menu-item-description">500ml</div>
@@ -454,7 +466,7 @@ const MenuPage = () => (
                 <div class="menu-item-name">Tomma sok czarna porzeczka</div>
                 <div class="menu-item-price">3,5</div>
                 <div class="menu-item-description">330ml</div>
-              </div>
+              </div> */}
             </div>
           </div>{" "}
           {/* <div class="col-xs-12 col-sm-12 col-md-6">

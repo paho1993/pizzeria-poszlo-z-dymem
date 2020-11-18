@@ -31,6 +31,9 @@ const NavigationBar = () => (
         <Nav.Link className="navbar-linkstyle" href="/menu">
           Menu
         </Nav.Link>
+        <Nav.Link className="navbar-linkstyle" href="/delivery">
+          Dostawa
+        </Nav.Link>
         <Nav.Link className="navbar-linkstyle" href="/place">
           Lokal
         </Nav.Link>
