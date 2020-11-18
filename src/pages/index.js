@@ -63,7 +63,7 @@ const IndexPage = () => (
               <FontAwesomeIcon className="icon" icon={faPepperHot} />
               <h3>Najlepsza jakośc</h3>
               <p>
-                Składniki pochodzące prosto z Włoch decydują a wysokiej jakość
+                Składniki pochodzące prosto z Włoch decydują o wysokiej jakości
                 pizzy
               </p>
             </div>
