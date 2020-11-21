@@ -1,14 +1,14 @@
 import React from "react"
-// import Picture1 from "../images/20201028-DSaaC09870.jpg"
+import Picture1 from "../images/aaa20201118-DSC00087.jpg"
 import Picture2 from "../images/20201028-DSC09aa883.jpg"
 import Picture3 from "../images/20201028-DSC09aa891.jpg"
 import Picture4 from "../images/20201028-DSC098aa68.jpg"
 import Picture5 from "../images/20201028-DSC098aa96.jpg"
 import Picture6 from "../images/20201028-DSC0985aa8.jpg"
-// import Picture7 from "../images/pizzeria-4804753_1920.jpg"
-// import Picture8 from "../images/table-5104538_1920.jpg"
-// import Picture9 from "../images/tuscany-685110_1920.jpg"
-// import Picture10 from "../images/restaurant-449952_1920.jpg"
+import Picture7 from "../images/aaa20201118-DSC00101.jpg"
+import Picture8 from "../images/aaa20201118-DSC00102.jpg"
+import Picture9 from "../images/aaa20201118-DSC00106.jpg"
+import Picture10 from "../images/aaa20201121-DSC00120.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -45,11 +45,6 @@ const Place = () => (
           <h2>Galeria</h2>
         </div>
         <div className="row justify-content-center">
-          {/* <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
-            <div className="thumbnail">
-              <img src={Picture1} alt="..." className="team-img img-fluid" />
-            </div>
-          </div> */}
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
               <img src={Picture2} alt="..." className="team-img img-fluid" />
@@ -75,7 +70,7 @@ const Place = () => (
               <img src={Picture6} alt="..." className="team-img img-fluid" />
             </div>
           </div>
-          {/* <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
               <img src={Picture7} alt="..." className="team-img img-fluid" />
             </div>
@@ -92,9 +87,14 @@ const Place = () => (
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
             <div className="thumbnail">
+              <img src={Picture1} alt="..." className="team-img img-fluid" />
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center team">
+            <div className="thumbnail">
               <img src={Picture10} alt="..." className="team-img img-fluid" />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
