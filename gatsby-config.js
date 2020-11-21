@@ -3,6 +3,7 @@ module.exports = {
     title: `Pizzeria Poszło z Dymem`,
     description: `Korzystamy tylko z prawdziwych włoskich składników i przepisów `,
     author: `Poszło z Dymem`,
+    siteUrl: "https://poszlozdymem.pl",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,5 +37,13 @@ module.exports = {
         icon: `src/images/pzd_final.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        exclude: [`/404/`, `/contact-after-send/`],
+      },
+    },
+    "gatsby-plugin-robots-txt",
   ],
 }
