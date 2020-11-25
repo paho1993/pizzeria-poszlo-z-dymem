@@ -10,7 +10,11 @@ const Footer = () => (
     <div className="container text-center">
       <div className="row justify-content-center">
         <div className=" col-sm-2 col-md-1">
-          <a target="_blank" rel="noreferrer" href="https://www.pyszne.pl">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/Posz%C5%82o-z-Dymem-102492268325629"
+          >
             <FacebookIcon className="iconFooter" fontSize="large" />
           </a>
         </div>
@@ -24,7 +28,7 @@ const Footer = () => (
     <div className="container text-center">
       <p>
         &copy; {new Date().getFullYear()} Poszło z dymem. Realizacja :{" "}
-        <a href="http://maciejpacholak.pl/" rel="nofollow">
+        <a href="http://maciejpacholak.pl/" target="_blank" rel="noreferrer">
           Maciej Pacholak
         </a>
       </p>

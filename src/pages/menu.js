@@ -260,28 +260,33 @@ const MenuPage = () => (
                   Taleggio, gorgonzola,asiago,parmezan i mozzarella
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Oliwa i sosy</h2>
               <div class="menu-item">
                 <div class="menu-item-name">Sos meksykański</div>
-                <div class="menu-item-price">-</div>
-                <div class="menu-item-price2">2</div>
+                <div class="menu-item-price">2</div>
+
                 <div class="menu-item-description"></div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Sos czosnkowy</div>
-                <div class="menu-item-price">-</div>
-                <div class="menu-item-price2">2</div>
+                <div class="menu-item-price">2</div>
+
                 <div class="menu-item-description"></div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Oliwa czosnkowa</div>
-                <div class="menu-item-price">-</div>
-                <div class="menu-item-price2">2</div>
+                <div class="menu-item-price">2</div>
+
                 <div class="menu-item-description"></div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Oliwa pikantna</div>
-                <div class="menu-item-price">-</div>
-                <div class="menu-item-price2">2</div>
+                <div class="menu-item-price">2</div>
+
                 <div class="menu-item-description"></div>
               </div>
             </div>
