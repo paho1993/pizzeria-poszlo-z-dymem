@@ -19,7 +19,11 @@ const Footer = () => (
           </a>
         </div>
         <div className="col-sm-2 col-md-1">
-          <a target="_blank" rel="noreferrer" href="https://www.pyszne.pl">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/poszlozdymem/?fbclid=IwAR3zMOCXLdVKWmPSi2QYt7_U0Yv89JPfoL49SukJLGsMRiIXA5zk9PPVeow"
+          >
             <InstagramIcon className="iconFooter" />
           </a>
         </div>

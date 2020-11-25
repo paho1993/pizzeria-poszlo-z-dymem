@@ -266,21 +266,23 @@ const MenuPage = () => (
             <div class="menu-section">
               <h2 class="menu-section-title">Oliwa i sosy</h2>
               <div class="menu-item">
+                <div class="menu-item-name">Sos pomidorowy</div>
+                <div class="menu-item-price">2</div>
+                <div class="menu-item-description"></div>
+              </div>
+              <div class="menu-item">
                 <div class="menu-item-name">Sos meksykański</div>
                 <div class="menu-item-price">2</div>
-
                 <div class="menu-item-description"></div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Sos czosnkowy</div>
                 <div class="menu-item-price">2</div>
-
                 <div class="menu-item-description"></div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Oliwa czosnkowa</div>
                 <div class="menu-item-price">2</div>
-
                 <div class="menu-item-description"></div>
               </div>
               <div class="menu-item">
