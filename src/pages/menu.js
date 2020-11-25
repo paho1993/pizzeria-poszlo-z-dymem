@@ -261,16 +261,28 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Sos</div>
+                <div class="menu-item-name">Sos meksykański</div>
                 <div class="menu-item-price">-</div>
                 <div class="menu-item-price2">2</div>
-                <div class="menu-item-description">Meksykański, czosnkowy</div>
-              </div>{" "}
+                <div class="menu-item-description"></div>
+              </div>
               <div class="menu-item">
-                <div class="menu-item-name">Oliwa</div>
+                <div class="menu-item-name">Sos czosnkowy</div>
                 <div class="menu-item-price">-</div>
                 <div class="menu-item-price2">2</div>
-                <div class="menu-item-description">Czosnkowa, pikantna</div>
+                <div class="menu-item-description"></div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Oliwa czosnkowa</div>
+                <div class="menu-item-price">-</div>
+                <div class="menu-item-price2">2</div>
+                <div class="menu-item-description"></div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Oliwa pikantna</div>
+                <div class="menu-item-price">-</div>
+                <div class="menu-item-price2">2</div>
+                <div class="menu-item-description"></div>
               </div>
             </div>
           </div>
@@ -290,8 +302,11 @@ const MenuPage = () => (
               class="menu-section-additions section-title text-center"
               style={{ justifyContent: "center" }}
             >
-              Przy zamówieniu na wynos doliczamy koszt opakowania: pizza 30cm -
-              1,3 zł, pizza 40cm - 1,8zł, sałatka - 1zł
+              Przy zamówieniu na wynos doliczamy koszt opakowania:
+              <div>Pizza 30cm - 1,3 zł</div>
+              <div>Pizza 40cm - 1,8 zł</div>
+              <div>Sałata - 1 zł</div>
+              <div>Calzone- 2 zł</div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12">
@@ -319,7 +334,7 @@ const MenuPage = () => (
                   penne,kurczak,cukinia, śmietanka, parmezan
                 </div>
               </div>
-              <div class="menu-item">
+              {/* <div class="menu-item">
                 <div class="menu-item-name">Lasagna</div>
                 <div class="menu-item-price"> 18 </div>
                 <div class="menu-item-description">
@@ -333,7 +348,7 @@ const MenuPage = () => (
                   Lazagne, bakłażan, mozzarella, parmezan, sos pomidorowy,
                   bazylia
                 </div>
-              </div>
+              </div> */}
               <div class="menu-item">
                 <div class="menu-item-name">Carbonara</div>
                 <div class="menu-item-price"> 19 </div>
@@ -399,7 +414,7 @@ const MenuPage = () => (
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-12">
+          {/* <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="menu-section">
               <h2 class="menu-section-title">Desery</h2>
               <div class="menu-item">
@@ -408,7 +423,7 @@ const MenuPage = () => (
                 <div class="menu-item-description"></div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="menu-section">
               <h2 class="menu-section-title ">Napoje zimne</h2>
