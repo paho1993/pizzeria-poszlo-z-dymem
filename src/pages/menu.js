@@ -371,6 +371,14 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
+                <div class="menu-item-name">Alla Matriciana</div>
+                <div class="menu-item-price"> 19 </div>
+                <div class="menu-item-description">
+                  Muszle, panchetta, cebula, sos pomidorowy, śmietanka,
+                  peperonicino, parmezan
+                </div>
+              </div>
+              <div class="menu-item">
                 <div class="menu-item-name">Spaghetti bologneze</div>
                 <div class="menu-item-price">20</div>
                 <div class="menu-item-description">
@@ -417,6 +425,14 @@ const MenuPage = () => (
                 <div class="menu-item-price">14</div>
                 <div class="menu-item-description">
                   Szynka parmeńska, mozzarella, pomidorki koktajlowe, rukola
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Panini Wegetariana</div>
+                <div class="menu-item-price">14</div>
+                <div class="menu-item-description">
+                  Mozzarella, grillowana papryka, cukinia, bakłażan, pomidorki
+                  koktajlowe, mix sałat, sos panino
                 </div>
               </div>
             </div>
