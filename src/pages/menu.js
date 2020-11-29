@@ -249,7 +249,7 @@ const MenuPage = () => (
                 <div class="menu-item-price2">4</div>
                 <div class="menu-item-description">
                   Salami łagodne, salami ostre, kurczak, boczek, saliccia, pasta
-                  nduja
+                  nduja, prosciutto cotto, prosciutto crudo
                 </div>
               </div>
               <div class="menu-item">
@@ -372,7 +372,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Alla Matriciana</div>
-                <div class="menu-item-price"> 19 </div>
+                <div class="menu-item-price"> 20 </div>
                 <div class="menu-item-description">
                   Muszle, panchetta, cebula, sos pomidorowy, śmietanka,
                   peperonicino, parmezan
@@ -407,32 +407,32 @@ const MenuPage = () => (
             <div class="menu-section">
               <h2 class="menu-section-title">Panini</h2>
               <div class="menu-item">
-                <div class="menu-item-name">Panini polo</div>
+                <div class="menu-item-name">Panini Polo</div>
                 <div class="menu-item-price">12</div>
                 <div class="menu-item-description">
                   Kurczak, mozzarella, cebula czerwona, mix sałat
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Panini Calabrese</div>
-                <div class="menu-item-price">12</div>
-                <div class="menu-item-description">
-                  Salami ostre, mozzarella, rukola, pomidorki koktajlowe
-                </div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-name">Panini Parma</div>
-                <div class="menu-item-price">14</div>
-                <div class="menu-item-description">
-                  Szynka parmeńska, mozzarella, pomidorki koktajlowe, rukola
-                </div>
-              </div>
-              <div class="menu-item">
                 <div class="menu-item-name">Panini Wegetariana</div>
-                <div class="menu-item-price">14</div>
+                <div class="menu-item-price">12</div>
                 <div class="menu-item-description">
                   Mozzarella, grillowana papryka, cukinia, bakłażan, pomidorki
                   koktajlowe, mix sałat, sos panino
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item-name">Panini Calabrese</div>
+                  <div class="menu-item-price">12</div>
+                  <div class="menu-item-description">
+                    Salami ostre, mozzarella, rukola, pomidorki koktajlowe
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item-name">Panini Parma</div>
+                  <div class="menu-item-price">14</div>
+                  <div class="menu-item-description">
+                    Szynka parmeńska, mozzarella, pomidorki koktajlowe, rukola
+                  </div>
                 </div>
               </div>
             </div>
