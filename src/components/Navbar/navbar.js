@@ -4,6 +4,8 @@ import PyszneLogo from "../../images/svg/PysznePL.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 import { Navbar, Nav } from "react-bootstrap"
+import FacebookIcon from "@material-ui/icons/Facebook"
+import InstagramIcon from "@material-ui/icons/Instagram"
 
 const NavigationBar = () => (
   <Navbar
@@ -23,6 +25,24 @@ const NavigationBar = () => (
       Telefon : &nbsp;
       <FontAwesomeIcon icon={faPhone} className="phoneicon" />
       &nbsp;510 265 267
+    </div>
+    <div className="navbarphone ml-3">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.facebook.com/Posz%C5%82o-z-Dymem-102492268325629"
+      >
+        <FacebookIcon className="navbarsocialicon" fontSize="large" />
+      </a>
+    </div>
+    <div className="navbarphone ml-3">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.instagram.com/poszlozdymem/?fbclid=IwAR3zMOCXLdVKWmPSi2QYt7_U0Yv89JPfoL49SukJLGsMRiIXA5zk9PPVeow"
+      >
+        <InstagramIcon className="navbarsocialicon" fontSize="large" />
+      </a>
     </div>
 
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -189,6 +189,13 @@ hr {
   height: 19px;
 }
 
+.navbarsocialicon {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbarsocialicon:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .showonmobile {
   display: none;
 }
@@ -401,8 +408,7 @@ header .intro-text {
   padding: 100px 0 60px 0;
 }
 #restaurant-menu img {
-  width: 300px;
-  box-shadow: 15px 0 #a7c44c;
+  width: 450px;
 }
 #restaurant-menu h3 {
   padding: 10px 0;

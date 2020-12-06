@@ -171,7 +171,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">35</div>
                 <div class="menu-item-price2">28</div>
                 <div class="menu-item-description">
-                  sos pomidorowy, mozzarella, gorgonzola, talegio, grana padano
+                  sos pomidorowy, mozzarella, gorgonzola, asiago, grana padano
                 </div>
               </div>
               <div class="menu-item">
@@ -257,7 +257,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">5,5</div>
                 <div class="menu-item-price2">4,5</div>
                 <div class="menu-item-description">
-                  Taleggio, gorgonzola,asiago,parmezan i mozzarella
+                  Mozzarella, gorgonzola, asiago, parmezan
                 </div>
               </div>
             </div>
@@ -431,7 +431,8 @@ const MenuPage = () => (
                   <div class="menu-item-name">Panini Parma</div>
                   <div class="menu-item-price">14</div>
                   <div class="menu-item-description">
-                    Szynka parmeńska, mozzarella, pomidorki koktajlowe, rukola
+                    Szynka parmeńska, mozzarella, pomidorki koktajlowe, rukola,
+                    oliwa
                   </div>
                 </div>
               </div>
