@@ -239,8 +239,17 @@ const MenuPage = () => (
                 <div class="menu-item-price">3</div>
                 <div class="menu-item-price2">2</div>
                 <div class="menu-item-description">
-                  Pomidorki koktajlowe, cebula czerwona,rukola, czosnek,
-                  grillowana papryka, cukinia,bakłażan
+                  Pomidorki koktajlowe, cebula czerwona, rukola, czosnek
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name" style={{ marginTop: "60px" }}>
+                  Warzywa grillowane
+                </div>
+                <div class="menu-item-price">4</div>
+                <div class="menu-item-price2">3</div>
+                <div class="menu-item-description">
+                  Grillowana papryka, cukinia, bakłażan
                 </div>
               </div>
               <div class="menu-item">
@@ -378,13 +387,13 @@ const MenuPage = () => (
                   peperonicino, parmezan
                 </div>
               </div>
-              <div class="menu-item">
+              {/* <div class="menu-item">
                 <div class="menu-item-name">Spaghetti bologneze</div>
                 <div class="menu-item-price">20</div>
                 <div class="menu-item-description">
                   spaghetti, sos pomidorowy, mięso wołowe
                 </div>
-              </div>
+              </div> */}
               <div class="menu-item">
                 <div class="menu-item-name">Gnocchi</div>
                 <div class="menu-item-price">21</div>
