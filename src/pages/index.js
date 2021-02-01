@@ -9,8 +9,8 @@ import {
   faPizzaSlice,
   faCarSide,
   faPepperHot,
+  faClock,
 } from "@fortawesome/free-solid-svg-icons"
-import Picture from "../images/stock-pizza-main.jpg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -77,34 +77,17 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-      </div>
-      {/* <div id="about">
         <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-md-6">
-              {" "}
-              <img
-                src={Picture}
-                className="img-responsive img-fluid"
-                alt="Twoja stara"
-              />{" "}
-            </div>
-            <div className="col-xs-12 col-md-6">
-              <div className="about-text">
-                <h2>O nas</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
+          <div className=" section-title" style={{ marginTop: "70px" }}>
+            <h2>Godziny otwarcia</h2>
+          </div>
+          <div className="col-xs-12 col-md-12">
+            <FontAwesomeIcon className="icon" icon={faClock} />
+            <h3>Wtorek - Niedziela : 12:00 - 22:00</h3>
+            <h3>Poniedziałek : Nieczynne</h3>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   </Layout>
 )

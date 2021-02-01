@@ -7,21 +7,6 @@ const MenuPage = () => (
     <SEO title="Nasze menu" />
     <div id="restaurant-menu">
       <div class="container">
-        {/* <div class="section-title text-center" style={{ marginTop: "70px" }}>
-          <h2>Menu</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit duis sed dapibus leonec.Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit duis sed dapibus leonec.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit duis sed dapibus leonec.Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit duis sed dapibus
-            leonec.Lorem ipsum dolor sit amet, consectetur adipiscing elit duis
-            sed dapibus leonec.Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit duis sed dapibus leonec.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit duis sed dapibus leonec.
-          </p>
-        </div> */}
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="menu-section" style={{ marginTop: "70px" }}>
