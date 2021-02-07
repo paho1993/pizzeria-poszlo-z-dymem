@@ -84,7 +84,7 @@ const IndexPage = () => (
           <div className="col-xs-12 col-md-12">
             <FontAwesomeIcon className="icon" icon={faClock} />
             <h3>Poniedziałek : Nieczynne</h3>
-            <h3>Wtorek - Niedziela : 12:00 - 22:00</h3>
+            <h3>Wtorek - Sobota : 12:00 - 22:00</h3>
             <h3>Niedziela : 12:00 - 20:00</h3>
           </div>
         </div>
