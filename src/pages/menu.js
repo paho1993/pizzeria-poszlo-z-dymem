@@ -142,33 +142,6 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Ala Carbonara</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
-                <div class="menu-item-description">
-                  mozzarella, pieczarki, cebula czerwona, boczek, śmietanka,
-                  parmezan, pomidorki koktajlowe
-                </div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-name">Nduja</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
-                <div class="menu-item-description">
-                  sos pomidorowy,biała mozzarella , pasta nduja, cebula
-                  czerwona, jalapeno, mascarpone
-                </div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-name">Casereccia</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
-                <div class="menu-item-description">
-                  sos pomidorowy, mozzarella, włoska kiełbasa, gorgonzola,
-                  czerwona cebula
-                </div>
-              </div>
-              <div class="menu-item">
                 <div class="menu-item-name">Don Camillo</div>
                 <div class="menu-item-price">37</div>
                 <div class="menu-item-price2">28</div>
@@ -184,6 +157,33 @@ const MenuPage = () => (
                 <div class="menu-item-description">
                   sos pomidorowy, mozzarella, szynka,oliwki czarne, pieczarki,
                   karczochy
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Ala Carbonara</div>
+                <div class="menu-item-price">38</div>
+                <div class="menu-item-price2">29</div>
+                <div class="menu-item-description">
+                  mozzarella, pieczarki, cebula czerwona, boczek, śmietanka,
+                  parmezan, pomidorki koktajlowe
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Nduja</div>
+                <div class="menu-item-price">38</div>
+                <div class="menu-item-price2">29</div>
+                <div class="menu-item-description">
+                  sos pomidorowy,biała mozzarella , pasta nduja, cebula
+                  czerwona, jalapeno, mascarpone
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Casereccia</div>
+                <div class="menu-item-price">38</div>
+                <div class="menu-item-price2">29</div>
+                <div class="menu-item-description">
+                  sos pomidorowy, mozzarella, włoska kiełbasa, gorgonzola,
+                  czerwona cebula
                 </div>
               </div>
               <div class="menu-item">
