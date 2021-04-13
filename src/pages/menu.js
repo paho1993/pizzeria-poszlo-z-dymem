@@ -206,7 +206,7 @@ const MenuPage = () => (
               <div class="menu-item">
                 <div class="menu-item-name">Parma</div>
                 <div class="menu-item-price">40</div>
-                <div class="menu-item-price2">31</div>
+                <div class="menu-item-price2">32</div>
                 <div class="menu-item-description">
                   sos pomidorowy, mozzarella, szynka prosciutto, pomidorki
                   koktajlowe, rukola, płaty parmezanu
