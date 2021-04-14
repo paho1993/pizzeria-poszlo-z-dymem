@@ -251,7 +251,9 @@ const MenuPage = () => (
                 <div class="menu-item-price">3</div>
                 <div class="menu-item-price2">2</div>
                 <div class="menu-item-description">
-                  Pomidorki koktajlowe / cebula czerwona / rukola / czosnek
+                  Pomidorki koktajlowe / cebula czerwona / rukola / czosnek /
+                  kukurydza / pieczarki / oliwki czarne / jalapeno / pomidory
+                  suszone / szpinak / karczochy
                 </div>
               </div>
               <div class="menu-item">
@@ -278,7 +280,8 @@ const MenuPage = () => (
                 <div class="menu-item-price">5,5</div>
                 <div class="menu-item-price2">4,5</div>
                 <div class="menu-item-description">
-                  Mozzarella / gorgonzola / asiago / parmezan
+                  Mozzarella / gorgonzola / asiago / parmezan / włoski ser
+                  wędzony
                 </div>
               </div>
             </div>
