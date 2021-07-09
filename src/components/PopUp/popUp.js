@@ -11,13 +11,12 @@ const PopUp = () => {
     <Modal show={show} onHide={handleClose} centered>
       <Modal.Header closeButton>
         <Modal.Title>
-          <b>Drodzy klienci</b>
+          <b>Szanowni klienci</b>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        Informujemy, że w najbliższy weekend (29-30 maja) lokal będzie
-        nieczynny. Musimy mieć więcej czasu na przygotowanie się do otwarcie
-        sali ! Do zobaczenia już 1 czerwca
+        Ze względu na rezerwację całego lokalu informujemy, że dnia 11.07 (niedziela) lokal będzie nieczynny.
+        Zapraszamy we wtorek ;)
       </Modal.Body>
     </Modal>
   )
