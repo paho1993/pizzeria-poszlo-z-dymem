@@ -15,8 +15,8 @@ const PopUp = () => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        Ze względu na rezerwację całego lokalu informujemy, że dnia 11.07 (niedziela) lokal będzie nieczynny.
-        Zapraszamy we wtorek ;)
+        Informujemy, że w przyczyn osobistych dnia 24.08 (wtorek) lokal będzie
+        nieczynny. Zapraszamy w środę ;)
       </Modal.Body>
     </Modal>
   )
