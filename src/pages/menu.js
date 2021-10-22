@@ -25,99 +25,99 @@ const MenuPage = () => (
                 <div class="menu-item-name" style={{ marginTop: "60px" }}>
                   Margherita
                 </div>
-                <div class="menu-item-price">27</div>
-                <div class="menu-item-price2">19</div>
+                <div class="menu-item-price">30</div>
+                <div class="menu-item-price2">21</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Prosciutto</div>
-                <div class="menu-item-price">31</div>
-                <div class="menu-item-price2">24</div>
+                <div class="menu-item-price">34</div>
+                <div class="menu-item-price2">26</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Diavola</div>
-                <div class="menu-item-price">31</div>
-                <div class="menu-item-price2">24</div>
+                <div class="menu-item-price">34</div>
+                <div class="menu-item-price2">26</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / salami picante
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Milano</div>
-                <div class="menu-item-price">31</div>
-                <div class="menu-item-price2">24</div>
+                <div class="menu-item-price">34</div>
+                <div class="menu-item-price2">26</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / salami łagodne
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Monte Bianco</div>
-                <div class="menu-item-price">32</div>
-                <div class="menu-item-price2">25</div>
+                <div class="menu-item-price">35</div>
+                <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
                   mozzarella / por / śmietanka / gorgonzola
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Prosciutto e funghi</div>
-                <div class="menu-item-price">32</div>
-                <div class="menu-item-price2">25</div>
+                <div class="menu-item-price">35</div>
+                <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka / pieczarki
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Diavola e funghi</div>
-                <div class="menu-item-price">32</div>
-                <div class="menu-item-price2">25</div>
+                <div class="menu-item-price">35</div>
+                <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / salami / pieczarki
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Hawai</div>
-                <div class="menu-item-price">32</div>
-                <div class="menu-item-price2">25</div>
+                <div class="menu-item-price">35</div>
+                <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka / ananas / kukurydza
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Spinaci</div>
-                <div class="menu-item-price">34</div>
-                <div class="menu-item-price2">27</div>
+                <div class="menu-item-price">36</div>
+                <div class="menu-item-price2">28</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szpinak / pomidory suszone / ser
                   feta
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Don Pietro</div>
-                <div class="menu-item-price">34</div>
-                <div class="menu-item-price2">27</div>
-                <div class="menu-item-description">
-                  sos pomidorowy / świeża mozzarella / salami picante /
-                  pomidorki koktajlowe / pesto
-                </div>
-              </div>
-              <div class="menu-item">
                 <div class="menu-item-name">Tonno e cipolla</div>
-                <div class="menu-item-price2">27</div>
-                <div class="menu-item-price">34</div>
+                <div class="menu-item-price">37</div>
+                <div class="menu-item-price2">29</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / tuńczyk / oliwki czarne /
                   czerwona cebula
                 </div>
               </div>
               <div class="menu-item">
+                <div class="menu-item-name">Don Pietro</div>
+                <div class="menu-item-price">40</div>
+                <div class="menu-item-price2">30</div>
+                <div class="menu-item-description">
+                  sos pomidorowy / świeża mozzarella / salami picante /
+                  pomidorki koktajlowe / pesto
+                </div>
+              </div>
+              <div class="menu-item">
                 <div class="menu-item-name">Vegetariana</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
+                <div class="menu-item-price">40</div>
+                <div class="menu-item-price2">30</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / grillowane warzywa: bakłażan /
                   cukinia / papryka
@@ -125,8 +125,8 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Montanara</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
+                <div class="menu-item-price">40</div>
+                <div class="menu-item-price2">30</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / salami łagodne / pieczarki /
                   włoski ser wędzony
@@ -134,8 +134,8 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Pollo a spinaci</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
+                <div class="menu-item-price">40</div>
+                <div class="menu-item-price2">30</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szpinak / kurczak / suszone
                   pomidory / czerwona cebula
@@ -143,8 +143,8 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Don Camillo</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
+                <div class="menu-item-price">40</div>
+                <div class="menu-item-price2">30</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / gruszka / gorgonzola / prażone
                   orzechy włoskie / rukola
@@ -152,8 +152,8 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Capricciosa</div>
-                <div class="menu-item-price">37</div>
-                <div class="menu-item-price2">28</div>
+                <div class="menu-item-price">40</div>
+                <div class="menu-item-price2">30</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka / oliwki czarne /
                   pieczarki / karczochy
@@ -161,8 +161,8 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Ala Carbonara</div>
-                <div class="menu-item-price">38</div>
-                <div class="menu-item-price2">29</div>
+                <div class="menu-item-price">41</div>
+                <div class="menu-item-price2">31</div>
                 <div class="menu-item-description">
                   mozzarella / pieczarki / cebula czerwona / boczek / śmietanka
                   / parmezan / pomidorki koktajlowe
@@ -170,8 +170,8 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Nduja</div>
-                <div class="menu-item-price">38</div>
-                <div class="menu-item-price2">29</div>
+                <div class="menu-item-price">41</div>
+                <div class="menu-item-price2">31</div>
                 <div class="menu-item-description">
                   sos pomidorowy / biała mozzarella / pasta nduja / cebula
                   czerwona / jalapeno / mascarpone
@@ -179,17 +179,17 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Casereccia</div>
-                <div class="menu-item-price">38</div>
-                <div class="menu-item-price2">29</div>
+                <div class="menu-item-price">41</div>
+                <div class="menu-item-price2">31</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / włoska kiełbasa / gorgonzola /
                   czerwona cebula
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Quattro Formagi</div>
-                <div class="menu-item-price">38</div>
-                <div class="menu-item-price2">30</div>
+                <div class="menu-item-name">Quattro Formaggi</div>
+                <div class="menu-item-price">42</div>
+                <div class="menu-item-price2">32</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / gorgonzola / asiago / grana
                   padano
@@ -197,17 +197,17 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Carnivora</div>
-                <div class="menu-item-price">38</div>
-                <div class="menu-item-price2">30</div>
+                <div class="menu-item-price">42</div>
+                <div class="menu-item-price2">32</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka / salami łagodne / salami
-                  ostre
+                  picante
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Parma</div>
-                <div class="menu-item-price">40</div>
-                <div class="menu-item-price2">32</div>
+                <div class="menu-item-price">44</div>
+                <div class="menu-item-price2">34</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka prosciutto / pomidorki
                   koktajlowe / rukola / płaty parmezanu
@@ -216,17 +216,18 @@ const MenuPage = () => (
               <div class="menu-item">
                 <div class="menu-item-name">Calzone Clasico</div>
                 <div class="menu-item-price">-</div>
-                <div class="menu-item-price2">25</div>
+                <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella / szynka / pieczarki
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Calzone Poszło z Dymem</div>
-                <div class="menu-item-price2">28</div>
+                <div class="menu-item-price2">29</div>
                 <div class="menu-item-price">-</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / szynka / salami ostre / gorgonzola
+                  sos pomidorowy / mozarella / szynka / salami picante /
+                  gorgonzola
                 </div>
               </div>
             </div>
@@ -271,8 +272,8 @@ const MenuPage = () => (
                 <div class="menu-item-price">5</div>
                 <div class="menu-item-price2">4</div>
                 <div class="menu-item-description">
-                  Salami łagodne / salami ostre / kurczak / boczek / saliccia /
-                  pasta nduja / prosciutto cotto / prosciutto crudo
+                  Salami łagodne / salami picante / kurczak / boczek / saliccia
+                  / pasta nduja / prosciutto cotto / prosciutto crudo
                 </div>
               </div>
               <div class="menu-item">
@@ -331,7 +332,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Cesar</div>
-                <div class="menu-item-price">20</div>
+                <div class="menu-item-price">22</div>
                 <div class="menu-item-description">
                   Sałata rzymska / grillowany kurczak / bekon / płatki parmezanu
                   / pomidorki koktajlowe / czerwona cebula / sos cezar / grzanki
@@ -343,8 +344,8 @@ const MenuPage = () => (
               style={{ justifyContent: "center" }}
             >
               Przy zamówieniu na wynos doliczamy koszt opakowania:
-              <div>Pizza 30cm - 1,3 zł</div>
-              <div>Pizza 40cm - 1,8 zł</div>
+              <div>Pizza 30cm - 1,5 zł</div>
+              <div>Pizza 40cm - 2 zł</div>
               <div>Sałata - 1 zł</div>
               <div>Calzone- 2 zł</div>
             </div>
@@ -354,14 +355,14 @@ const MenuPage = () => (
               <h2 class="menu-section-title">Pasta</h2>
               <div class="menu-item">
                 <div class="menu-item-name">Spaghetti al pomodoro</div>
-                <div class="menu-item-price">18</div>
+                <div class="menu-item-price">20</div>
                 <div class="menu-item-description">
                   spaghetti / sos pomidorowy świeża / mozzarella / bazylia
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Spaghetti Poszło z dymem</div>
-                <div class="menu-item-price">19</div>
+                <div class="menu-item-price">21</div>
                 <div class="menu-item-description">
                   spaghetti / oliwa czosnek / pietruszka / peperoncino / anchois
                   / pomidorki koktajlowe
@@ -369,14 +370,14 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Spaghetti al pesto</div>
-                <div class="menu-item-price"> 19 </div>
+                <div class="menu-item-price"> 21 </div>
                 <div class="menu-item-description">
                   spaghetti / pesto genovese
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Penne pollo e zucchine</div>
-                <div class="menu-item-price">20</div>
+                <div class="menu-item-price">23</div>
                 <div class="menu-item-description">
                   penne / kurczak / cukinia / śmietanka / parmezan
                 </div>
@@ -391,7 +392,7 @@ const MenuPage = () => (
               </div> */}
               <div class="menu-item">
                 <div class="menu-item-name">Carbonara</div>
-                <div class="menu-item-price"> 21 </div>
+                <div class="menu-item-price">24</div>
                 <div class="menu-item-description">
                   spaghetti / guanciale / jajko / parmezan / świeżo zmielony
                   pieprz
@@ -406,7 +407,7 @@ const MenuPage = () => (
               </div> */}
               <div class="menu-item">
                 <div class="menu-item-name">Alla Matriciana</div>
-                <div class="menu-item-price"> 22 </div>
+                <div class="menu-item-price">25</div>
                 <div class="menu-item-description">
                   Muszle / guanciale / biała cebula / sos pomidorowy / śmietanka
                   / peperonicino / parmezan
@@ -421,7 +422,7 @@ const MenuPage = () => (
               </div> */}
               <div class="menu-item">
                 <div class="menu-item-name">Gnocchi</div>
-                <div class="menu-item-price">23</div>
+                <div class="menu-item-price">25</div>
                 <div class="menu-item-description">
                   gnocchi / szpinak gorgonzola / śmietanka / parmezan
                 </div>
@@ -442,7 +443,7 @@ const MenuPage = () => (
               <h2 class="menu-section-title">Panini</h2>
               <div class="menu-item">
                 <div class="menu-item-name">Panini Polo</div>
-                <div class="menu-item-price">14</div>
+                <div class="menu-item-price">15</div>
                 <div class="menu-item-description">
                   Kurczak / mozzarella / cebula czerwona / mix sałat / sos
                   panino
@@ -450,22 +451,22 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Panini Wegetariana</div>
-                <div class="menu-item-price">14</div>
+                <div class="menu-item-price">15</div>
                 <div class="menu-item-description">
-                  Mozzarella / grillowana papryka / cukinia / bakłażan /
+                  Grillowana papryka / cukinia / bakłażan / mozarella /
                   pomidorki koktajlowe / mix sałat / sos panino
                 </div>
                 <div class="menu-item">
                   <div class="menu-item-name">Panini Calabrese</div>
-                  <div class="menu-item-price">14</div>
+                  <div class="menu-item-price">15</div>
                   <div class="menu-item-description">
-                    Salami ostre / mozzarella / rukola / pomidorki koktajlowe /
-                    sos panino
+                    Salami picante / mozzarella / rukola / pomidorki koktajlowe
+                    / sos panino
                   </div>
                 </div>
                 <div class="menu-item">
                   <div class="menu-item-name">Panini Parma</div>
-                  <div class="menu-item-price">15</div>
+                  <div class="menu-item-price">16</div>
                   <div class="menu-item-description">
                     Szynka parmeńska / mozzarella / pomidorki koktajlowe /
                     rukola / sos panino

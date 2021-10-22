@@ -19,7 +19,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Prawdziwa włoska pizza w Opolu" />
       <div>
-        <PopUp />
+        {/* <PopUp /> */}
         <header id="header">
           <div className="intro">
             <div className="overlay">
