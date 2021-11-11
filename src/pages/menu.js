@@ -60,7 +60,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">35</div>
                 <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
-                  mozzarella / por / śmietanka / gorgonzola
+                  śmietanka / mozzarella / por / gorgonzola
                 </div>
               </div>
               <div class="menu-item">
@@ -76,7 +76,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">35</div>
                 <div class="menu-item-price2">27</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella / salami / pieczarki
+                  sos pomidorowy / mozzarella / salami picante / pieczarki
                 </div>
               </div>
               <div class="menu-item">
@@ -160,11 +160,11 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Ala Carbonara</div>
+                <div class="menu-item-name">Alla Carbonara</div>
                 <div class="menu-item-price">41</div>
                 <div class="menu-item-price2">31</div>
                 <div class="menu-item-description">
-                  mozzarella / pieczarki / cebula czerwona / boczek / śmietanka
+                  śmietanka / mozzarella / pieczarki / cebula czerwona / boczek
                   / parmezan / pomidorki koktajlowe
                 </div>
               </div>
