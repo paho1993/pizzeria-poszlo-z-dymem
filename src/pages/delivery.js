@@ -17,7 +17,7 @@ const MenuPage = () => (
               className="team-img img-fluid"
             />
           </div>
-          <p>Do 2,5 km dowóz gratis - Minimalna wartość zamówienia 30 zł</p>
+          <p>Do 1.5 km dowóz gratis - Minimalna wartość zamówienia 30 zł</p>
           <p>
             Do 4 km koszt dowozu to 4 zł - Minimalna wartość zamówienia 35 zł.
             Darmowy dowóz od kwoty 50 zł
