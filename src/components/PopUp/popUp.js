@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Modal from "react-bootstrap/Modal"
 import Button from "react-bootstrap/Button"
-import image from "../../images/242124334_406093487781506_3684268385438712264_n.png"
+import image from "../../images/wielkanoc.jpg"
 
 const PopUp = () => {
   const [show, setShow] = useState(true)
