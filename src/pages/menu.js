@@ -380,8 +380,9 @@ const MenuPage = () => (
               Przy zamówieniu na wynos doliczamy koszt opakowania:
               <div>Pizza 30cm - 1,5 zł</div>
               <div>Pizza 40cm - 2 zł</div>
-              <div>Sałata - 1 zł</div>
-              <div>Calzone- 2 zł</div>
+              <div>Sałatka - 1 zł</div>
+              <div>Makaron - 1 zł</div>
+              <div>Calzone - 2 zł</div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12">
