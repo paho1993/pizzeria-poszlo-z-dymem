@@ -456,37 +456,37 @@ const MenuPage = () => (
               <h2 class="menu-section-title ">Napoje zimne</h2>
               <div class="menu-item">
                 <div class="menu-item-name">Pepsi</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Pepsi max</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Mirinda</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">7 up</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Lipton Ice Tea Lemon</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Lipton Ice Tea Peach</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Lipton Ice Tea Green Tea</div>
-                <div class="menu-item-price">7</div>
+                <div class="menu-item-price">8</div>
                 <div class="menu-item-description">500ml</div>
               </div>
               <div class="menu-item">
