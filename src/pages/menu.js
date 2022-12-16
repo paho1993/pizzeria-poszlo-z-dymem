@@ -156,8 +156,8 @@ const MenuPage = () => (
                 <div class="menu-item-price">48</div>
                 <div class="menu-item-price2">34</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella / salsiccia / pomidorki koktajlowe
-                  / parmezan / ricotta
+                  mozzarella / salsiccia / pomidorki koktajlowe / parmezan /
+                  ricotta
                 </div>
               </div>
               <div class="menu-item">
@@ -198,11 +198,11 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Abruzzese</div>
-                <div class="menu-item-price">44</div>
-                <div class="menu-item-price2">33</div>
+                <div class="menu-item-price">49</div>
+                <div class="menu-item-price2">35</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella / pancetta / plastry ziemniaków /
-                  gorgonzola / ricotta / rozmaryn
+                  mozzarella / pancetta / plastry ziemniaków / gorgonzola /
+                  ricotta / rozmaryn
                 </div>
               </div>
               <div class="menu-item">
@@ -385,7 +385,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Penne con salmone</div>
-                <div class="menu-item-price">35</div>
+                <div class="menu-item-price">37</div>
                 <div class="menu-item-description">
                   penne / łosoś / szuszone pomidory / sos pomidorowy / śmietanka
                   / pietruszka
