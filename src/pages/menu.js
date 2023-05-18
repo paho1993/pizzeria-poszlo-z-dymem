@@ -100,6 +100,24 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
+                <div class="menu-item-name">Napoletana</div>
+                <div class="menu-item-price">49</div>
+                <div class="menu-item-price2">35</div>
+                <div class="menu-item-description">
+                  mozzarella fior di late / salsiccia / pomidorki koktajlowe /
+                  grana padano / ricotta
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Carciofi</div>
+                <div class="menu-item-price">49</div>
+                <div class="menu-item-price2">35</div>
+                <div class="menu-item-description">
+                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
+                  karczochy / mascarpone / bazylia
+                </div>
+              </div>
+              <div class="menu-item">
                 <div class="menu-item-name">Tonno e cipolla</div>
                 <div class="menu-item-price">49</div>
                 <div class="menu-item-price2">35</div>
@@ -154,24 +172,6 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Napoletana</div>
-                <div class="menu-item-price">49</div>
-                <div class="menu-item-price2">35</div>
-                <div class="menu-item-description">
-                  mozzarella fior di late / salsiccia / pomidorki koktajlowe /
-                  grana padano / ricotta
-                </div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-name">Carciofi</div>
-                <div class="menu-item-price">49</div>
-                <div class="menu-item-price2">35</div>
-                <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
-                  karczochy / mascarpone / bazylia
-                </div>
-              </div>
-              <div class="menu-item">
                 <div class="menu-item-name">Don Camillo</div>
                 <div class="menu-item-price">51</div>
                 <div class="menu-item-price2">36</div>
@@ -181,21 +181,21 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Don Pietro</div>
-                <div class="menu-item-price">53</div>
-                <div class="menu-item-price2">37</div>
-                <div class="menu-item-description">
-                  sos pomidorowy / świeża mozzarella fior di late / salami
-                  picante / pomidorki koktajlowe / pesto
-                </div>
-              </div>
-              <div class="menu-item">
                 <div class="menu-item-name">Nduja</div>
                 <div class="menu-item-price">51</div>
                 <div class="menu-item-price2">36</div>
                 <div class="menu-item-description">
                   sos pomidorowy / świeża mozzarella fior di late / pasta nduja
                   / cebula czerwona / jalapeno / mascarpone
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Don Pietro</div>
+                <div class="menu-item-price">53</div>
+                <div class="menu-item-price2">37</div>
+                <div class="menu-item-description">
+                  sos pomidorowy / świeża mozzarella fior di late / salami
+                  picante / pomidorki koktajlowe / pesto
                 </div>
               </div>
               <div class="menu-item">
@@ -216,10 +216,14 @@ const MenuPage = () => (
                   gorgonzola / ricotta / rozmaryn
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="menu-section">
+              <h2 class="menu-section-title">Calzone</h2>
               <div class="menu-item">
                 <div class="menu-item-name">Calzone Clasico</div>
-                <div class="menu-item-price">-</div>
-                <div class="menu-item-price2">32</div>
+                <div class="menu-item-price">32</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella fior di late / prosciutto cotto /
                   pieczarki
@@ -227,8 +231,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Calzone Vege</div>
-                <div class="menu-item-price2">32</div>
-                <div class="menu-item-price">-</div>
+                <div class="menu-item-price">32</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella fior di late / blanszowany szpinak
                   / pomidorki koktajlowe
@@ -236,15 +239,14 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Calzone Poszło z Dymem</div>
-                <div class="menu-item-price2">35</div>
-                <div class="menu-item-price">-</div>
+                <div class="menu-item-price">35</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella fior di late / prosciutto cotto /
                   salami picante / gorgonzola
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
           <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="menu-section">
               <h2 class="menu-section-title">Dodatki</h2>
