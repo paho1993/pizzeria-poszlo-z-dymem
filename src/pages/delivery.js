@@ -18,16 +18,19 @@ const MenuPage = () => (
             />
           </div>
           <p>
-            Do 1.5 km koszt dowozu to 3 zł - Minimalna wartość zamówienia 40 zł.
-            Darmowy dowóz od kwoty 100 zł
+            0-1.5 km koszt dowozu to 3 zł - Minimalna wartość zamówienia 45 zł.
+            Darmowy dowóz od kwoty 150 zł
           </p>
           <p>
-            Do 4 km koszt dowozu to 6 zł - Minimalna wartość zamówienia 40 zł.
-            Darmowy dowóz od kwoty 100 zł
+            1.5-3 km koszt dowozu to 6 zł - Minimalna wartość zamówienia 50 zł.
+            Darmowy dowóz od kwoty 200 zł
+          </p>
+          <p>
+            3-5 km koszt dowozu to 8 zł - Minimalna wartość zamówienia 50 zł.
+            Darmowy dowóz od kwoty 200 zł
           </p>
           <p style={{ marginBottom: "100px" }}>
-            Od 4-7 km koszt dowozu to 8 zł - Minimalna wartość zamówienia 45 zł.
-            Darmowy dowóz od kwoty 120 zł
+            5-7 km koszt dowozu to 12 zł - Minimalna wartość zamówienia 60 zł.
           </p>
         </div>
       </div>
