@@ -28,7 +28,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">41</div>
                 <div class="menu-item-price2">28</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / bazylia
+                  sos pomidorowy / mozzarella fior di latte / bazylia
                 </div>
               </div>
               <div class="menu-item">
@@ -36,7 +36,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">46</div>
                 <div class="menu-item-price2">33</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto
+                  sos pomidorowy / mozzarella fior di latte / prosciutto cotto
                 </div>
               </div>
               <div class="menu-item">
@@ -44,7 +44,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">46</div>
                 <div class="menu-item-price2">33</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / salami picante
+                  sos pomidorowy / mozzarella fior di latte / salami piccante
                 </div>
               </div>
               <div class="menu-item">
@@ -52,7 +52,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">46</div>
                 <div class="menu-item-price2">33</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / salami łagodne
+                  sos pomidorowy / mozzarella fior di latte / salami milano
                 </div>
               </div>
               <div class="menu-item">
@@ -60,7 +60,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">48</div>
                 <div class="menu-item-price2">35</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
+                  sos pomidorowy / mozzarella fior di latte / prosciutto cotto /
                   pieczarki
                 </div>
               </div>
@@ -69,7 +69,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">48</div>
                 <div class="menu-item-price2">35</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / salami picante /
+                  sos pomidorowy / mozzarella fior di latte / salami piccante /
                   pieczarki
                 </div>
               </div>
@@ -78,7 +78,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">48</div>
                 <div class="menu-item-price2">35</div>
                 <div class="menu-item-description">
-                  mozzarella fior di late / burak marynowany / por / ricotta
+                  mozzarella fior di latte / burak marynowany / por / ricotta
                 </div>
               </div>
               <div class="menu-item">
@@ -86,7 +86,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">50</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / liście szpinaku /
+                  sos pomidorowy / mozzarella fior di latte / liście szpinaku /
                   czosnek / feta / krem balsamiczny
                 </div>
               </div>
@@ -95,7 +95,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">49</div>
                 <div class="menu-item-price2">35</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / cukinia / pieczona
+                  sos pomidorowy / mozzarella fior di latte / cukinia / pieczona
                   papryka / pomidorki koktajlowe
                 </div>
               </div>
@@ -104,7 +104,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">52</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  mozzarella fior di late / salsiccia / pomidorki koktajlowe /
+                  mozzarella fior di latte / salsiccia / pomidorki koktajlowe /
                   grana padano / ricotta / bazylia
                 </div>
               </div>
@@ -113,7 +113,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">52</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
+                  sos pomidorowy / mozzarella fior di latte / prosciutto cotto /
                   karczochy / mascarpone / bazylia
                 </div>
               </div>
@@ -122,7 +122,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">52</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / tuńczyk / oliwki
+                  sos pomidorowy / mozzarella fior di latte / tuńczyk / oliwki
                   czarne / czerwona cebula
                 </div>
               </div>
@@ -131,7 +131,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / salami milano /
+                  sos pomidorowy / mozzarella fior di latte / salami milano /
                   bakłażan / gorgonzola
                 </div>
               </div>
@@ -140,7 +140,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / liście szpinaku /
+                  sos pomidorowy / mozzarella fior di latte / liście szpinaku /
                   kurczak / suszone pomidory / czerwona cebula
                 </div>
               </div>
@@ -149,7 +149,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">54</div>
                 <div class="menu-item-price2">38</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / saliccia /
+                  sos pomidorowy / mozzarella fior di latte / saliccia /
                   gorgonzola / czerwona cebula
                 </div>
               </div>
@@ -158,7 +158,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">54</div>
                 <div class="menu-item-price2">38</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
+                  sos pomidorowy / mozzarella fior di latte / prosciutto cotto /
                   oliwki czarne / pieczarki / karczochy
                 </div>
               </div>
@@ -167,7 +167,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">54</div>
                 <div class="menu-item-price2">38</div>
                 <div class="menu-item-description">
-                  creme fraiche / mozzarella fior di late / pieczarki / cebula
+                  creme fraiche / mozzarella fior di latte / pieczarki / cebula
                   czerwona / pancetta / grana padano / pomidorki koktajlowe
                 </div>
               </div>
@@ -176,8 +176,8 @@ const MenuPage = () => (
                 <div class="menu-item-price">52</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  creme fraiche / mozzarella fior di late / gruszka / gorgonzola
-                  / prażone orzechy włoskie / rukola
+                  creme fraiche / mozzarella fior di latte / gruszka /
+                  gorgonzola / prażone orzechy włoskie / rukola
                 </div>
               </div>
               <div class="menu-item">
@@ -185,7 +185,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">54</div>
                 <div class="menu-item-price2">38</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / świeża mozzarella fior di late / pasta nduja
+                  sos pomidorowy / świeża mozzarella fior di latte / pasta nduja
                   / cebula czerwona / jalapeno / mascarpone
                 </div>
               </div>
@@ -194,8 +194,8 @@ const MenuPage = () => (
                 <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / świeża mozzarella fior di late / salami
-                  picante / pomidorki koktajlowe / pesto
+                  sos pomidorowy / świeża mozzarella fior di latte / salami
+                  piccante / pomidorki koktajlowe / pesto
                 </div>
               </div>
               <div class="menu-item">
@@ -203,7 +203,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">54</div>
                 <div class="menu-item-price2">38</div>
                 <div class="menu-item-description">
-                  creme fraiche / mozzarella fior di late / gorgonzola /
+                  creme fraiche / mozzarella fior di latte / gorgonzola /
                   scamorza / grana padano
                 </div>
               </div>
@@ -212,7 +212,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
-                  mozzarella fior di late / pancetta / plastry ziemniaków /
+                  mozzarella fior di latte / pancetta / plastry ziemniaków /
                   gorgonzola / ricotta / rozmaryn
                 </div>
               </div>
@@ -222,10 +222,10 @@ const MenuPage = () => (
             <div class="menu-section">
               <h2 class="menu-section-title">Calzone</h2>
               <div class="menu-item">
-                <div class="menu-item-name">Calzone Clasico</div>
+                <div class="menu-item-name">Calzone Classico</div>
                 <div class="menu-item-price">34</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
+                  sos pomidorowy / mozzarella fior di latte / prosciutto cotto /
                   pieczarki
                 </div>
               </div>
@@ -233,16 +233,16 @@ const MenuPage = () => (
                 <div class="menu-item-name">Calzone Vege</div>
                 <div class="menu-item-price">34</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / blanszowany szpinak
-                  / pomidorki koktajlowe
+                  sos pomidorowy / mozzarella fior di latte / blanszowany
+                  szpinak / pomidorki koktajlowe
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Calzone Poszło z Dymem</div>
                 <div class="menu-item-price">38</div>
                 <div class="menu-item-description">
-                  sos pomidorowy / mozzarella fior di late / prosciutto cotto /
-                  salami picante / gorgonzola
+                  sos pomidorowy / mozzarella fior di latte / prosciutto cotto /
+                  salami piccante / gorgonzola
                 </div>
               </div>
             </div>
@@ -277,7 +277,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">6</div>
                 <div class="menu-item-price2">5</div>
                 <div class="menu-item-description">
-                  salami łagodne / salami picante / kurczak / pancetta /
+                  salami łagodne / salami piccante / kurczak / pancetta /
                   saliccia / pasta nduja / prosciutto cotto
                 </div>
               </div>
@@ -286,7 +286,7 @@ const MenuPage = () => (
                 <div class="menu-item-price">6</div>
                 <div class="menu-item-price2">5</div>
                 <div class="menu-item-description">
-                  mozzarella fior di late / gorgonzola / grana padano / włoski
+                  mozzarella fior di latte / gorgonzola / grana padano / włoski
                   ser wędzony / mascarpone / ricotta
                 </div>
               </div>
@@ -377,11 +377,11 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Sorentina</div>
+                <div class="menu-item-name">Sorrentina</div>
                 <div class="menu-item-price">29</div>
                 <div class="menu-item-description">
-                  gnocchi / sos pomidorowy / mozzarella fior di late / bazylia /
-                  grana padano
+                  gnocchi / sos pomidorowy / mozzarella fior di latte / bazylia
+                  / grana padano
                 </div>
               </div>
               <div class="menu-item">
@@ -408,7 +408,7 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Spinaci con Gorgonzola</div>
+                <div class="menu-item-name">Spinaci e Gorgonzola</div>
                 <div class="menu-item-price">34</div>
                 <div class="menu-item-description">
                   gnocchi / liście szpinaku / gorgonzola / śmietanka / grana
@@ -442,7 +442,7 @@ const MenuPage = () => (
                 <div class="menu-item-name">Panini Polo</div>
                 <div class="menu-item-price">19</div>
                 <div class="menu-item-description">
-                  kurczak / mozzarella fior di late / cebula czerwona / mix
+                  kurczak / mozzarella fior di latte / cebula czerwona / mix
                   sałat / sos panino
                 </div>
               </div>
@@ -457,7 +457,7 @@ const MenuPage = () => (
                   <div class="menu-item-name">Panini Calabrese</div>
                   <div class="menu-item-price">19</div>
                   <div class="menu-item-description">
-                    salami picante / mozzarella fior di late / rukola /
+                    salami piccante / mozzarella fior di latte / rukola /
                     pomidorki koktajlowe / sos panino
                   </div>
                 </div>
@@ -465,7 +465,7 @@ const MenuPage = () => (
                   <div class="menu-item-name">Panini Prosciutto</div>
                   <div class="menu-item-price">20</div>
                   <div class="menu-item-description">
-                    prosciutto cotto / mozzarella fior di late / pomidor /
+                    prosciutto cotto / mozzarella fior di latte / pomidor /
                     rukola / oliwa
                   </div>
                 </div>
@@ -483,7 +483,7 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Canolli</div>
+                <div class="menu-item-name">Cannolli</div>
                 <div class="menu-item-price">15</div>
               </div>
             </div>
