@@ -101,7 +101,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Napoletana</div>
-                <div class="menu-item-price">52</div>
+                <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
                   mozzarella fior di latte / salsiccia / pomidorki koktajlowe /
@@ -110,7 +110,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Carciofi</div>
-                <div class="menu-item-price">52</div>
+                <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella fior di latte / prosciutto cotto /
@@ -127,12 +127,12 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Sfiziosa</div>
+                <div class="menu-item-name">Montanara</div>
                 <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
                   sos pomidorowy / mozzarella fior di latte / salami milano /
-                  bakłażan / gorgonzola
+                  pieczarki / scamorza / gorgonzola
                 </div>
               </div>
               <div class="menu-item">
@@ -173,7 +173,7 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Don Camillo</div>
-                <div class="menu-item-price">52</div>
+                <div class="menu-item-price">53</div>
                 <div class="menu-item-price2">37</div>
                 <div class="menu-item-description">
                   creme fraiche / mozzarella fior di latte / gruszka /
@@ -204,7 +204,7 @@ const MenuPage = () => (
                 <div class="menu-item-price2">38</div>
                 <div class="menu-item-description">
                   creme fraiche / mozzarella fior di latte / gorgonzola /
-                  scamorza / grana padano
+                  scamorza / ser tallegio
                 </div>
               </div>
               <div class="menu-item">
@@ -318,7 +318,7 @@ const MenuPage = () => (
               <h2 class="menu-section-title">Sałatki</h2>
               <div class="menu-item">
                 <div class="menu-item-name">Cesar</div>
-                <div class="menu-item-price">31</div>
+                <div class="menu-item-price">32</div>
                 <div class="menu-item-description">
                   grillowany kurczak / sałata rzymska / bekon / grana padano /
                   pomidorki koktajlowe / czerwona cebula / sos cezar / grzanki
@@ -326,14 +326,14 @@ const MenuPage = () => (
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Insalata Pera</div>
-                <div class="menu-item-price">31</div>
+                <div class="menu-item-price">32</div>
                 <div class="menu-item-description">
                   gruszka / rukola / orzechy włoskie / gorgonzola / vinegret
                 </div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-name">Spinaci con Arancia</div>
-                <div class="menu-item-price">31</div>
+                <div class="menu-item-price">32</div>
                 <div class="menu-item-description">
                   pomarańcza / liście szpinaku / ser kozi / orzechy włoskie
                 </div>
