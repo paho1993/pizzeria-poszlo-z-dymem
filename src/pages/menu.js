@@ -74,7 +74,7 @@ const MenuPage = () => (
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Campagniola</div>
+                <div class="menu-item-name">Campagnola</div>
                 <div class="menu-item-price">57</div>
                 <div class="menu-item-price2">39</div>
                 <div class="menu-item-description">
