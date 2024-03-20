@@ -1,11 +1,9 @@
 import React from "react"
 import Logo from "../../images/fiverr_final_website.svg"
-import PyszneLogo from "../../images/svg/PysznePL.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faFacebookSquare,faInstagram } from '@fortawesome/free-brands-svg-icons' 
 import { Navbar, Nav } from "react-bootstrap"
-import FacebookIcon from "@material-ui/icons/Facebook"
-import InstagramIcon from "@material-ui/icons/Instagram"
 
 const NavigationBar = () => (
   <Navbar
@@ -26,22 +24,24 @@ const NavigationBar = () => (
       <FontAwesomeIcon icon={faPhone} className="phoneicon" />
       &nbsp;510 265 267
     </div>
-    <div className="navbarphone ml-3">
+    <div className="navbarphone ml-4">
       <a
+        aria-label="Facebook"
         target="_blank"
         rel="noreferrer"
         href="https://www.facebook.com/Posz%C5%82o-z-Dymem-102492268325629"
       >
-        <FacebookIcon className="navbarsocialicon" fontSize="large" />
+        <FontAwesomeIcon icon={faFacebookSquare}  size="2xl" color="rgba(255, 255, 255, 0.5)" />
       </a>
     </div>
-    <div className="navbarphone ml-3">
+    <div className="navbarphone ml-4">
       <a
+        aria-label="Instagram"
         target="_blank"
         rel="noreferrer"
         href="https://www.instagram.com/poszlozdymem/?fbclid=IwAR3zMOCXLdVKWmPSi2QYt7_U0Yv89JPfoL49SukJLGsMRiIXA5zk9PPVeow"
       >
-        <InstagramIcon className="navbarsocialicon" fontSize="large" />
+         <FontAwesomeIcon icon={faInstagram} size="2xl"  color="rgba(255, 255, 255, 0.5)"/>
       </a>
     </div>
 
@@ -60,14 +60,6 @@ const NavigationBar = () => (
         <Nav.Link className="mr-2 navbar-linkstyle" href="/contact">
           Kontakt
         </Nav.Link>
-        {/* <Nav.Link
-          className="navbar-linkstyle borderbutton"
-          target="_blank"
-          href="https://www.pyszne.pl"
-        >
-          <PyszneLogo style={{ height: "50px", marginLeft: "3px" }} />
-          <span className="navbar-spanstyle">Zamów online</span>
-        </Nav.Link> */}
       </Nav>
     </Navbar.Collapse>
   </Navbar>

@@ -1,15 +1,14 @@
-import React from "react"
-import Layout from "../components/layout"
 import "../components/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import RoomIcon from "@material-ui/icons/Room"
-import PhoneIcon from "@material-ui/icons/Phone"
-import MailOutlineIcon from "@material-ui/icons/MailOutline"
-import SEO from "../components/seo"
+import React from "react"
+import Layout from "../components/layout"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPhone,faEnvelope,faMapPin } from "@fortawesome/free-solid-svg-icons"
+import Seo from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Skontaktuj się z nami" />
+    <Seo title="Skontaktuj się z nami" />
     <div className="section-title text-center" style={{ marginTop: "150px" }}>
       <h2>Lokalizacja</h2>
     </div>
@@ -46,25 +45,25 @@ const ContactPage = () => (
               <h3>Informacje kontaktowe</h3>
               <p>
                 <span>
-                  <RoomIcon fontSize="small" />
+                <FontAwesomeIcon icon={faMapPin}/>
                   &nbsp;&nbsp;&nbsp;Adres
                 </span>
-                ul. Jakaś 28, 45-000, Opole
+                ul. Katowicka 48, 45-061, Opole
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <PhoneIcon fontSize="small" />
+                <FontAwesomeIcon icon={faPhone}/>
                   &nbsp;&nbsp;&nbsp;Telefon
                 </span>
-                +48 000 000 000
+                +48 510 265 267
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <MailOutlineIcon fontSize="small" />
+                <FontAwesomeIcon icon={faEnvelope}/>
                   &nbsp;&nbsp;&nbsp;Email
                 </span>
                 pizzeriaposzlozdymem@gmail.com

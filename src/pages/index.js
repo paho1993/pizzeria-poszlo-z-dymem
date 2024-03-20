@@ -1,23 +1,22 @@
-import React, { useState } from "react"
-import Layout from "../components/layout"
-import PopUp from "../components/PopUp/popUp"
 import "../components/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react"
+import Layout from "../components/layout"
+// import PopUp from "../components/PopUp/popUp"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faCoffee,
   faPhone,
   faPizzaSlice,
   faCarSide,
   faPepperHot,
   faClock,
 } from "@fortawesome/free-solid-svg-icons"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Prawdziwa włoska pizza w Opolu" />
+      <Seo title="Prawdziwa włoska pizza w Opolu" />
       <div>
         {/* <PopUp /> */}
         <header id="header">
@@ -56,7 +55,7 @@ const IndexPage = () => {
         </header>
         <div id="features" className="text-center">
           <div className="container">
-            <div className=" section-title">
+            <div className="section-title">
               <h2>Co nas wyróżnia </h2>
             </div>
             <div className="row center">

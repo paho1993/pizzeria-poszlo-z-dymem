@@ -7,7 +7,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,14 +26,6 @@ module.exports = {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: process.env.GATSBY_FB_PIXEL_ID,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-material-ui`,
-      options: {
-        stylesProvider: {
-          injectFirst: true,
-        },
       },
     },
     `gatsby-transformer-sharp`,

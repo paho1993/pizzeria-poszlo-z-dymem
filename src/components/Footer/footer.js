@@ -1,6 +1,6 @@
 import React from "react"
-import FacebookIcon from "@material-ui/icons/Facebook"
-import InstagramIcon from "@material-ui/icons/Instagram"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebookSquare,faInstagram } from '@fortawesome/free-brands-svg-icons' 
 
 const Footer = () => (
   <div id="footer">
@@ -10,21 +10,21 @@ const Footer = () => (
     <div className="container text-center">
       <div className="row justify-content-center">
         <div className=" col-sm-2 col-md-1">
-          <a
+          <a 
+            aria-label="Facebook"
             target="_blank"
             rel="noreferrer"
             href="https://www.facebook.com/Posz%C5%82o-z-Dymem-102492268325629"
-          >
-            <FacebookIcon className="iconFooter" fontSize="large" />
+          >   <FontAwesomeIcon icon={faFacebookSquare} className="iconFooter" />
           </a>
         </div>
         <div className="col-sm-2 col-md-1">
           <a
+            aria-label="Instagram"
             target="_blank"
             rel="noreferrer"
             href="https://www.instagram.com/poszlozdymem/?fbclid=IwAR3zMOCXLdVKWmPSi2QYt7_U0Yv89JPfoL49SukJLGsMRiIXA5zk9PPVeow"
-          >
-            <InstagramIcon className="iconFooter" />
+          >   <FontAwesomeIcon icon={faInstagram} className="iconFooter" />
           </a>
         </div>
       </div>

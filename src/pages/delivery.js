@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import Picture6 from "../images/food-delivery.png"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const MenuPage = () => (
   <Layout>
-    <SEO title="Dostawa" />
+    <Seo title="Dostawa" />
     <div id="restaurant-menu">
       <div class="container">
         <div class="section-title text-center" style={{ marginTop: "70px" }}>

@@ -12,33 +12,17 @@ import Picture10 from "../images/aaa20201121-DSC00120.jpg"
 import Picture11 from "../images/bb20201201-DSC00347.jpg"
 import Picture12 from "../images/bb20201201-DSC00365.jpg"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Place = () => (
   <Layout>
-    <SEO title="Nasz lokal" />
+    <Seo title="Nasz lokal" />
     <div id="team">
       <div className="container">
         <div
           className="text-center section-title"
           style={{ marginTop: "70px" }}
         >
-          {/* <h2>Lokal</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit duis sed dapibus leonec. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit duis sed dapibus leonec. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit duis sed dapibus leonec. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit duis sed dapibus leonec. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit duis sed dapibus leonec.
-          </p> */}
         </div>
         <div
           className="text-center section-title"

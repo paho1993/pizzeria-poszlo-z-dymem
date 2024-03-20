@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const MenuPage = () => (
   <Layout>
-    <SEO title="Nasze menu" />
+    <Seo title="Nasze menu" />
     <div id="restaurant-menu">
       <div class="container">
         <div class="row">

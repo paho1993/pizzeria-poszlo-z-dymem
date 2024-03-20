@@ -293,16 +293,16 @@ header .intro-text {
 /* Features Section */
 #features {
   padding: 100px 0;
-  /* background: #f6f6f6; */
 }
+
 #features .icon {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
   color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
+  width: 55px;
+  height: 55px;
+  padding: 21px;
   border-radius: 50%;
   background: linear-gradient(to right, #b50102 0%, #fe6e01 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -430,8 +430,7 @@ header .intro-text {
 }
 
 .menu-section-additions {
-  /* width: 70%; */
-  /* background-color: lawngreen; */
+
   text-align: center;
   padding: 20px;
   margin: 10px;
@@ -692,12 +691,13 @@ label {
 
 #footer .iconFooter {
   font-size: 38px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top:10px;
   transition: all 0.5s;
   color: rgba(255, 255, 255, 0.3);
-  width: 55px;
-  height: 55px;
-  padding: 10px 0;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.3);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
