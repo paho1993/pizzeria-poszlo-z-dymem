@@ -2,7 +2,7 @@ import React from "react"
 import Logo from "../../images/fiverr_final_website.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
-import { faFacebookSquare,faInstagram } from '@fortawesome/free-brands-svg-icons' 
+import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { Navbar, Nav } from "react-bootstrap"
 
 const NavigationBar = () => (
@@ -20,9 +20,14 @@ const NavigationBar = () => (
       <Logo style={{ height: "75px", marginLeft: "40px" }} />
     </Navbar.Brand>
     <div className="navbarphone ml-3">
-      Telefon : &nbsp;
-      <FontAwesomeIcon icon={faPhone} className="phoneicon" />
-      &nbsp;510 265 267
+      <a
+        href="tel:510265267"
+        className="btn btn-custom btn-lg "
+      >
+        Telefon : &nbsp;
+        <FontAwesomeIcon icon={faPhone} className="phoneicon" />
+        &nbsp;510 265 267
+      </a>
     </div>
     <div className="navbarphone ml-4">
       <a
@@ -31,7 +36,7 @@ const NavigationBar = () => (
         rel="noreferrer"
         href="https://www.facebook.com/Posz%C5%82o-z-Dymem-102492268325629"
       >
-        <FontAwesomeIcon icon={faFacebookSquare}  size="2xl" color="rgba(255, 255, 255, 0.5)" />
+        <FontAwesomeIcon icon={faFacebookSquare} size="2xl" color="rgba(255, 255, 255, 0.5)" />
       </a>
     </div>
     <div className="navbarphone ml-4">
@@ -41,7 +46,7 @@ const NavigationBar = () => (
         rel="noreferrer"
         href="https://www.instagram.com/poszlozdymem/?fbclid=IwAR3zMOCXLdVKWmPSi2QYt7_U0Yv89JPfoL49SukJLGsMRiIXA5zk9PPVeow"
       >
-         <FontAwesomeIcon icon={faInstagram} size="2xl"  color="rgba(255, 255, 255, 0.5)"/>
+        <FontAwesomeIcon icon={faInstagram} size="2xl" color="rgba(255, 255, 255, 0.5)" />
       </a>
     </div>
 
