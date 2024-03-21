@@ -1,11 +1,19 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookSquare,faInstagram } from '@fortawesome/free-brands-svg-icons' 
+import { faPhone } from "@fortawesome/free-solid-svg-icons"
 
 const Footer = () => (
   <div id="footer">
-    <div className="container text-center">
-      <h3>Zamów na telefon : 510 265 267</h3>
+    <div className="container text-center text-white mt-2 mb-2">
+    <a
+        href="tel:510265267"
+        className="text-white"
+      >
+        TELEFON : &nbsp;
+        <FontAwesomeIcon icon={faPhone} className="phoneicon" />
+        &nbsp;510 265 267
+      </a>
     </div>
     <div className="container text-center">
       <div className="row justify-content-center">
