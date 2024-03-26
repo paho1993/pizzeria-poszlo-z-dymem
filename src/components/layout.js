@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Script } from "gatsby"
 
 import Navbar from "./Navbar/navbar"
 import Footer from "./Footer/footer"
@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/93919fddc0d1988891eb9587/script.js"></Script>
       <Navbar siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
