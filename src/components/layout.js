@@ -25,8 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-    <Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/93919fddc0d1988891eb9587/script.js"></Script>
+    <><Script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/93919fddc0d1988891eb9587/script.js"></Script>
       <Navbar siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>

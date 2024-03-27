@@ -64,6 +64,9 @@ const NavigationBar = () => (
         </Nav.Link>
         <Nav.Link className="mr-2 navbar-linkstyle" href="/contact">
           Kontakt
+        </Nav.Link>  
+         <Nav.Link className="mr-2 navbar-linkstyle" href="/#order">
+          Zamów online
         </Nav.Link>
       </Nav>
     </Navbar.Collapse>
