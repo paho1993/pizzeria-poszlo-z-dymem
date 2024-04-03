@@ -53,7 +53,7 @@ const NavigationBar = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto mr-5">
-        <Nav.Link className="navbar-linkstyle" href="/menu">
+        <Nav.Link className="navbar-linkstyle" href="https://poszlo-z-dymem.upmenusite.com/">
           Menu
         </Nav.Link>
         <Nav.Link className="navbar-linkstyle" href="/delivery">
@@ -65,7 +65,7 @@ const NavigationBar = () => (
         <Nav.Link className="mr-2 navbar-linkstyle" href="/contact">
           Kontakt
         </Nav.Link>  
-         <Nav.Link className="mr-2 navbar-linkstyle" href="/menu">
+         <Nav.Link className="mr-2 navbar-linkstyle" href="https://poszlo-z-dymem.upmenusite.com/">
           Zamów online / Zarezewuj stolik
         </Nav.Link>
       </Nav>

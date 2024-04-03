@@ -35,7 +35,7 @@ const IndexPage = () => {
                       Przekonaj się sam!
                     </p>
                     <a
-                      href="/menu"
+                      href="https://poszlo-z-dymem.upmenusite.com/"
                       className="btn btn-custom btn-lg page-scroll"
                     >
                       Zobacz menu
@@ -81,12 +81,7 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-          </div>   <div id="order" className="section-title" style={{ marginTop: "40px" }}>
-              <h2>Zamów online </h2>
-            </div>
-          <div class="iframe-index-container">
-            <iframe class="responsive-index-iframe" width="100%" height="100%" src="https://poszlo-z-dymem.upmenusite.com/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          </div>  
           <div className="container">
             <div className=" section-title" style={{ marginTop: "70px" }}>
               <h2>Godziny otwarcia</h2>
